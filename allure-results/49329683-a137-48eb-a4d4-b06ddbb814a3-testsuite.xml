@@ -1,0 +1,142 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669947588782' stop='1669947594695'>
+    <name>Búsqueda</name>
+    <title>Búsqueda</title>
+    <test-cases>
+        <test-case start='1669947588783' status='passed' stop='1669947591894'>
+            <name>Debería buscar iPhone</name>
+            <title>Debería buscar iPhone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.71'/>
+            </parameters>
+            <steps>
+                <step start='1669947591092' status='passed' stop='1669947591092'>
+                    <name>Buscar artículo: iPhone</name>
+                    <title>Buscar artículo: iPhone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669947591795' status='passed' stop='1669947591795'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669947591821' status='passed' stop='1669947591821'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669947591895' status='passed' stop='1669947592997'>
+            <name>Debería buscar Canon EOS 5D</name>
+            <title>Debería buscar Canon EOS 5D</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.71'/>
+            </parameters>
+            <steps>
+                <step start='1669947592246' status='passed' stop='1669947592246'>
+                    <name>Buscar artículo: Canon EOS 5D</name>
+                    <title>Buscar artículo: Canon EOS 5D</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669947592913' status='passed' stop='1669947592913'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669947592933' status='passed' stop='1669947592933'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669947592998' status='passed' stop='1669947594068'>
+            <name>Debería buscar MacBook</name>
+            <title>Debería buscar MacBook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.71'/>
+            </parameters>
+            <steps>
+                <step start='1669947593331' status='passed' stop='1669947593331'>
+                    <name>Buscar artículo: MacBook</name>
+                    <title>Buscar artículo: MacBook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669947593990' status='passed' stop='1669947593990'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669947594016' status='passed' stop='1669947594016'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669947594069' status='broken' stop='1669947594695'>
+            <name>Debería buscar undefined</name>
+            <title>Debería buscar undefined</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.71'/>
+            </parameters>
+            <steps>
+                <step start='1669947594382' status='passed' stop='1669947594382'>
+                    <name>Buscar artículo: undefined</name>
+                    <title>Buscar artículo: undefined</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='894e9c4e-48fe-4632-b3ab-d6a4f11ad00f-attachment.png' type='image/png' size='320667'/>
+            </attachments>
+            <failure>
+                <message>"keys" command requires a string or array of strings as parameter</message>
+                <stack-trace>Error: "keys" command requires a string or array of strings as parameter
+                    at Element.keys (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriverio\build\commands\browser\keys.js:45:15)
+                    at Element.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Element.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at HomePage.vaciarCampoYEnviarTexto (D:\WebdriverIO-Curso-Abstracta\pages\/base.page.js:30:5)
+                    at HomePage.buscar (D:\WebdriverIO-Curso-Abstracta\pages\/home.page.js:17:5)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/opencart.test.js:10:8)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

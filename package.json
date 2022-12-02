@@ -7,7 +7,7 @@
     "test": "wdio ./wdio.conf.js",
     "testing": "set AMBIENTE=testing&&npm run test",
     "prod": "set AMBIENTE=prod&&npm run test"
-},
+  },
   "author": "\"\"",
   "license": "ISC",
   "devDependencies": {
@@ -20,11 +20,11 @@
     "@wdio/selenium-standalone-service": "^7.26.0",
     "@wdio/spec-reporter": "^7.26.0",
     "chai": "^4.0.1",
+    "chai-webdriverio": "^1.0.0",
     "wdio-image-comparison-service": "^5.0.2",
     "webdriverio": "^7.27.0"
   },
   "dependencies": {
-    "@wdio/cli": "^7.27.0",
-    "chai-webdriverio": "^1.0.0"
+    "@wdio/cli": "^7.27.0"
   }
 }

@@ -22,7 +22,7 @@ class HomePage extends BasePage {
    * Obtener texto de la barra de búsqueda
    */
   async obtenerTextoBusqueda() {
-    addStep('Obtener texto de la barra de búsqueda')
+    addStep('Obtener texto de la barra de búsqueda');
     return await this.barraDeBusqueda.getValue();
   }
 }

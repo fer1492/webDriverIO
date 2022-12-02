@@ -1,0 +1,130 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669820823784' stop='1669820829465'>
+    <name>Búsqueda</name>
+    <title>Búsqueda</title>
+    <test-cases>
+        <test-case start='1669820823784' status='broken' stop='1669820826930'>
+            <name>Debería buscar iPhone</name>
+            <title>Debería buscar iPhone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps>
+                <step start='1669820826027' status='passed' stop='1669820826027'>
+                    <name>Buscar artículo: iPhone</name>
+                    <title>Buscar artículo: iPhone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669820826761' status='passed' stop='1669820826761'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669820826789' status='passed' stop='1669820826789'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='7408babd-7df8-4c02-bde1-8b276a1d9813-attachment.png' type='image/png' size='113776'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'equal')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'equal')
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/opencart.test.js:13:62)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669820826931' status='broken' stop='1669820828213'>
+            <name>Debería buscar Canon EOS 5D</name>
+            <title>Debería buscar Canon EOS 5D</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps>
+                <step start='1669820827277' status='passed' stop='1669820827277'>
+                    <name>Buscar artículo: Canon EOS 5D</name>
+                    <title>Buscar artículo: Canon EOS 5D</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669820828026' status='passed' stop='1669820828026'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669820828059' status='passed' stop='1669820828059'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='efe67707-b066-497d-a376-3dbb47a9faa1-attachment.png' type='image/png' size='133833'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'equal')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'equal')
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/opencart.test.js:13:62)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669820828214' status='broken' stop='1669820829464'>
+            <name>Debería buscar MacBook</name>
+            <title>Debería buscar MacBook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.122'/>
+            </parameters>
+            <steps>
+                <step start='1669820828550' status='passed' stop='1669820828550'>
+                    <name>Buscar artículo: MacBook</name>
+                    <title>Buscar artículo: MacBook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669820829291' status='passed' stop='1669820829291'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1669820829313' status='passed' stop='1669820829313'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='6a0f29c5-2d79-40f6-a555-0a51f22d3b99-attachment.png' type='image/png' size='190593'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'equal')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'equal')
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/opencart.test.js:13:62)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
