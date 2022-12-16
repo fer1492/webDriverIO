@@ -1,6 +1,6 @@
 import homePage from '../pages/home.page';
-import busquedaPage from '../pages/busqueda.page';
 import DATOS from "../datos/articulos";
+import busquedaPage from "../pages/busqueda.page";
 
 
  describe("Búsqueda", function () {
@@ -8,13 +8,7 @@ import DATOS from "../datos/articulos";
      it(`Debería buscar ${articulo}`, async () => {
        await homePage.abrir("http://opencart.abstracta.us");
        await homePage.buscar(articulo);
-       console.log(articulo);
-       console.log(await homePage.obtenerTextoBusqueda());
        await expect(await homePage.obtenerTextoBusqueda()).to.equal(articulo);
-       await expect(await busquedaPage.obtenerNombreResultado()).to.equal(articulo);
      });
    });
  });
-
-
-

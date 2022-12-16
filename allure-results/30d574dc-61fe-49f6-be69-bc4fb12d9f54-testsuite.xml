@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671159917460' stop='1671159921771'>
+    <name>Búsqueda</name>
+    <title>Búsqueda</title>
+    <test-cases>
+        <test-case start='1671159917460' status='broken' stop='1671159920794'>
+            <name>Debería buscar iPhone</name>
+            <title>Debería buscar iPhone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1671159920600' status='passed' stop='1671159920601'>
+                    <name>Buscar artículo: iPhone</name>
+                    <title>Buscar artículo: iPhone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='946e8824-70d8-4026-9c41-c434801c3d3c-attachment.png' type='image/png' size='320487'/>
+            </attachments>
+            <failure>
+                <message>elemento.waitForClickable is not a function</message>
+                <stack-trace>TypeError: elemento.waitForClickable is not a function
+                    at HomePage.vaciarCampoYEnviarTexto (D:\WebdriverIO-Curso-Abstracta\pages\/base.page.js:27:20)
+                    at HomePage.buscar (D:\WebdriverIO-Curso-Abstracta\pages\/home.page.js:17:17)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/opencart.test.js:10:8)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1671159920795' status='broken' stop='1671159921285'>
+            <name>Debería buscar Canon EOS 5D</name>
+            <title>Debería buscar Canon EOS 5D</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1671159921112' status='passed' stop='1671159921112'>
+                    <name>Buscar artículo: Canon EOS 5D</name>
+                    <title>Buscar artículo: Canon EOS 5D</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='6e846622-e2bb-473f-9fa0-f9045c1577e7-attachment.png' type='image/png' size='320487'/>
+            </attachments>
+            <failure>
+                <message>elemento.waitForClickable is not a function</message>
+                <stack-trace>TypeError: elemento.waitForClickable is not a function
+                    at HomePage.vaciarCampoYEnviarTexto (D:\WebdriverIO-Curso-Abstracta\pages\/base.page.js:27:20)
+                    at HomePage.buscar (D:\WebdriverIO-Curso-Abstracta\pages\/home.page.js:17:17)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/opencart.test.js:10:8)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1671159921285' status='broken' stop='1671159921770'>
+            <name>Debería buscar MacBook</name>
+            <title>Debería buscar MacBook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1671159921589' status='passed' stop='1671159921589'>
+                    <name>Buscar artículo: MacBook</name>
+                    <title>Buscar artículo: MacBook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='7db49562-687a-4ac0-989c-3e86553b9fca-attachment.png' type='image/png' size='320487'/>
+            </attachments>
+            <failure>
+                <message>elemento.waitForClickable is not a function</message>
+                <stack-trace>TypeError: elemento.waitForClickable is not a function
+                    at HomePage.vaciarCampoYEnviarTexto (D:\WebdriverIO-Curso-Abstracta\pages\/base.page.js:27:20)
+                    at HomePage.buscar (D:\WebdriverIO-Curso-Abstracta\pages\/home.page.js:17:17)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/opencart.test.js:10:8)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

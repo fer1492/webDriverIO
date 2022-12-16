@@ -5,6 +5,13 @@ class HomePage extends BasePage {
   get barraDeBusqueda() {
     return $('[name="search"]');
   }
+  get footer(){
+    return $('footer');
+  }
+
+  get dropDownColor(){
+    return $('select');
+  }
 
   //-------------------------------------------------------------------------------------------------------//
 

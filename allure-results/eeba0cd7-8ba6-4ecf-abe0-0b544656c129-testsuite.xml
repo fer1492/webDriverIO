@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671164678166' stop='1671164685232'>
+    <name>Color</name>
+    <title>Color</title>
+    <test-cases>
+        <test-case start='1671164678167' status='broken' stop='1671164685231'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='07e188eb-afb6-47e8-9357-a9ece2ec2c47-attachment.png' type='image/png' size='248856'/>
+            </attachments>
+            <failure>
+                <message>barraDeBusqueda is not defined</message>
+                <stack-trace>ReferenceError: barraDeBusqueda is not defined
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/seleccionarColor.test.js:9:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

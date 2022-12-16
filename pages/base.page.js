@@ -18,6 +18,7 @@ export default class BasePage {
     await elemento.click();
   }
 
+
   /**
    * Método para enviar texto a un elemento
    * @param {Object} elemento que recibirá el texto

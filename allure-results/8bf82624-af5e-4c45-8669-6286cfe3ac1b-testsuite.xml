@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670913290789' stop='1670913291263'>
+    <name>Búsqueda</name>
+    <title>Búsqueda</title>
+    <test-cases>
+        <test-case start='1670913290789' status='broken' stop='1670913291034'>
+            <name>Debería buscar iPhone</name>
+            <title>Debería buscar iPhone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.99'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a18a012e-732e-4161-ad6a-9eab6fc03def-attachment.png' type='image/png' size='9090'/>
+            </attachments>
+            <failure>
+                <message>homePage is not defined</message>
+                <stack-trace>ReferenceError: homePage is not defined
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/opencart.test.js:8:8)
+                    at Context.executeAsync (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at Context.testFrameworkFnWrapper (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1670913291034' status='broken' stop='1670913291143'>
+            <name>Debería buscar Canon EOS 5D</name>
+            <title>Debería buscar Canon EOS 5D</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.99'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='05165ca0-55d8-4b72-af53-415e52a8e5b4-attachment.png' type='image/png' size='9090'/>
+            </attachments>
+            <failure>
+                <message>homePage is not defined</message>
+                <stack-trace>ReferenceError: homePage is not defined
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/opencart.test.js:8:8)
+                    at Context.executeAsync (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at Context.testFrameworkFnWrapper (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1670913291143' status='broken' stop='1670913291263'>
+            <name>Debería buscar MacBook</name>
+            <title>Debería buscar MacBook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.99'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='909b1898-f6d2-4ad1-bfb8-b3bd17809602-attachment.png' type='image/png' size='9090'/>
+            </attachments>
+            <failure>
+                <message>homePage is not defined</message>
+                <stack-trace>ReferenceError: homePage is not defined
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/opencart.test.js:8:8)
+                    at Context.executeAsync (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at Context.testFrameworkFnWrapper (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

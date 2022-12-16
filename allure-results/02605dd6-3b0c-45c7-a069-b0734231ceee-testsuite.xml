@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670979097941' stop='1670979098678'>
+    <name>Búsqueda</name>
+    <title>Búsqueda</title>
+    <test-cases>
+        <test-case start='1670979097942' status='broken' stop='1670979098452'>
+            <name>Debería buscar iPhone</name>
+            <title>Debería buscar iPhone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.99'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1ae7b4a6-5dee-4705-a149-67f23b4902da-attachment.png' type='image/png' size='9090'/>
+            </attachments>
+            <failure>
+                <message>_home.default.abrir is not a function</message>
+                <stack-trace>TypeError: _home.default.abrir is not a function
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/opencart.test.js:9:23)
+                    at Context.executeAsync (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at Context.testFrameworkFnWrapper (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1670979098452' status='broken' stop='1670979098558'>
+            <name>Debería buscar Canon EOS 5D</name>
+            <title>Debería buscar Canon EOS 5D</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.99'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c70cd44c-ec6c-4dd9-9a1e-0d740a21aad9-attachment.png' type='image/png' size='9090'/>
+            </attachments>
+            <failure>
+                <message>_home.default.abrir is not a function</message>
+                <stack-trace>TypeError: _home.default.abrir is not a function
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/opencart.test.js:9:23)
+                    at Context.executeAsync (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at Context.testFrameworkFnWrapper (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1670979098559' status='broken' stop='1670979098678'>
+            <name>Debería buscar MacBook</name>
+            <title>Debería buscar MacBook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.99'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e96b2212-24fc-4a0b-8816-36424f1f011a-attachment.png' type='image/png' size='9090'/>
+            </attachments>
+            <failure>
+                <message>_home.default.abrir is not a function</message>
+                <stack-trace>TypeError: _home.default.abrir is not a function
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/opencart.test.js:9:23)
+                    at Context.executeAsync (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:333:27)
+                    at Context.testFrameworkFnWrapper (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
