@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671332092878' stop='1671332095654'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1671332092878' status='broken' stop='1671332095653'>
+            <name>Debería añadir el articulo al carro</name>
+            <title>Debería añadir el articulo al carro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1671332093018' status='passed' stop='1671332093018'>
+                    <name>Abrir sitio web: undefined</name>
+                    <title>Abrir sitio web: undefined</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671332094629' status='passed' stop='1671332094629'>
+                    <name>Buscar artículo: iphone</name>
+                    <title>Buscar artículo: iphone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671332094758' status='passed' stop='1671332094758'>
+                    <name>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: iphone</name>
+                    <title>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: iphone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671332095424' status='passed' stop='1671332095424'>
+                    <name>Click en el elemento: .img-responsive</name>
+                    <title>Click en el elemento: .img-responsive</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='b18aea8f-697b-4db9-9f4e-ed51d07d8e00-attachment.png' type='image/png' size='113423'/>
+            </attachments>
+            <failure>
+                <message>elemento.click is not a function</message>
+                <stack-trace>TypeError: elemento.click is not a function
+                    at HomePage.clickearElemento (D:\WebdriverIO-Curso-Abstracta\pages\/base.page.js:20:20)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/añadirAlCarro.test.js:7:20)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

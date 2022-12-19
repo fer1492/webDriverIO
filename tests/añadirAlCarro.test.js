@@ -1,14 +1,13 @@
 import homePage from "../pages/home.page";
 import busquedaPage from "../pages/busqueda.page";
 
+const IPHONE = 'iphone';
+
 describe('Carrito', () => {
   it('Debería añadir el articulo al carro', async () => {
-    await homePage.abrir("http://opencart.abstracta.us");
-    await homePage.buscar('iphone');
-    await browser.pause(4000);
-    await $('.img-responsive').click();
-    await browser.pause(4000);
-    await $('#button-cart').click();
-    await browser.pause(4000);
+    await homePage.abrir();
+    await homePage.buscar(IPHONE);
+    await busquedaPage.ingresarAlResultado();
+    await busquedaPage.ingresarAlProducto();
   });
 });

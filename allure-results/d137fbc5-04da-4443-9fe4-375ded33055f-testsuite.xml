@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671333495242' stop='1671333500789'>
+    <name>Búsqueda</name>
+    <title>Búsqueda</title>
+    <test-cases>
+        <test-case start='1671333495242' status='passed' stop='1671333498715'>
+            <name>Debería buscar iPhone</name>
+            <title>Debería buscar iPhone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1671333495326' status='passed' stop='1671333495326'>
+                    <name>Abrir sitio web: http://opencart.abstracta.us</name>
+                    <title>Abrir sitio web: http://opencart.abstracta.us</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671333497975' status='passed' stop='1671333497975'>
+                    <name>Buscar artículo: iPhone</name>
+                    <title>Buscar artículo: iPhone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671333498039' status='passed' stop='1671333498039'>
+                    <name>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: iPhone</name>
+                    <title>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: iPhone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671333498689' status='passed' stop='1671333498689'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1671333498716' status='passed' stop='1671333499741'>
+            <name>Debería buscar Canon EOS 5D</name>
+            <title>Debería buscar Canon EOS 5D</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1671333498716' status='passed' stop='1671333498716'>
+                    <name>Abrir sitio web: http://opencart.abstracta.us</name>
+                    <title>Abrir sitio web: http://opencart.abstracta.us</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671333499037' status='passed' stop='1671333499037'>
+                    <name>Buscar artículo: Canon EOS 5D</name>
+                    <title>Buscar artículo: Canon EOS 5D</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671333499080' status='passed' stop='1671333499080'>
+                    <name>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: Canon EOS 5D</name>
+                    <title>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: Canon EOS 5D</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671333499719' status='passed' stop='1671333499719'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1671333499742' status='passed' stop='1671333500788'>
+            <name>Debería buscar MacBook</name>
+            <title>Debería buscar MacBook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1671333499742' status='passed' stop='1671333499742'>
+                    <name>Abrir sitio web: http://opencart.abstracta.us</name>
+                    <title>Abrir sitio web: http://opencart.abstracta.us</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671333500077' status='passed' stop='1671333500077'>
+                    <name>Buscar artículo: MacBook</name>
+                    <title>Buscar artículo: MacBook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671333500116' status='passed' stop='1671333500116'>
+                    <name>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: MacBook</name>
+                    <title>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: MacBook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671333500763' status='passed' stop='1671333500763'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

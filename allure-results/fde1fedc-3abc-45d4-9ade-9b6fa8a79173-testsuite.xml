@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671339447258' stop='1671339450591'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1671339447258' status='broken' stop='1671339450590'>
+            <name>Debería añadir el articulo al carro</name>
+            <title>Debería añadir el articulo al carro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1671339447366' status='passed' stop='1671339447366'>
+                    <name>Abrir sitio web: /</name>
+                    <title>Abrir sitio web: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671339449677' status='passed' stop='1671339449677'>
+                    <name>Buscar artículo: iphone</name>
+                    <title>Buscar artículo: iphone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671339449737' status='passed' stop='1671339449737'>
+                    <name>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: iphone</name>
+                    <title>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: iphone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671339450434' status='passed' stop='1671339450434'>
+                    <name>Click en el elemento: undefined</name>
+                    <title>Click en el elemento: undefined</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='0280d2fd-2479-446d-8cd4-197008ebf222-attachment.png' type='image/png' size='113423'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'waitForClickable')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'waitForClickable')
+                    at BusquedaPage.clickearElemento (D:\WebdriverIO-Curso-Abstracta\pages\/base.page.js:19:20)
+                    at BusquedaPage.ingresarResul (D:\WebdriverIO-Curso-Abstracta\pages\/busqueda.page.js:10:16)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/añadirAlCarro.test.js:8:24)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

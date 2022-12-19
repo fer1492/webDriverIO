@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671334088070' stop='1671334109206'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1671334088071' status='broken' stop='1671334109206'>
+            <name>Debería añadir el articulo al carro</name>
+            <title>Debería añadir el articulo al carro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1671334088153' status='passed' stop='1671334088153'>
+                    <name>Abrir sitio web: /</name>
+                    <title>Abrir sitio web: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671334090336' status='passed' stop='1671334090336'>
+                    <name>Buscar artículo: iphone</name>
+                    <title>Buscar artículo: iphone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671334090392' status='passed' stop='1671334090392'>
+                    <name>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: iphone</name>
+                    <title>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: iphone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='211ca092-3eba-4050-8b17-864c3d825c8f-attachment.png' type='image/png' size='113423'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "#button-cart" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "#button-cart" because element wasn't found
+                    at implicitWait (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at Element.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/añadirAlCarro.test.js:11:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

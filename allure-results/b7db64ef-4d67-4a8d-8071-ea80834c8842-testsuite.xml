@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671486136546' stop='1671486141202'>
+    <name>Búsqueda de varios articulos: </name>
+    <title>Búsqueda de varios articulos: </title>
+    <test-cases>
+        <test-case start='1671486136547' status='passed' stop='1671486139219'>
+            <name>Debería buscar iPhone</name>
+            <title>Debería buscar iPhone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1671486136672' status='passed' stop='1671486136672'>
+                    <name>Abrir sitio web: undefined</name>
+                    <title>Abrir sitio web: undefined</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671486138227' status='passed' stop='1671486138227'>
+                    <name>Vaciar el campo escribir el nombre del articulo y apretar enter para enviarlo: iPhone</name>
+                    <title>Vaciar el campo escribir el nombre del articulo y apretar enter para enviarlo: iPhone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671486138381' status='passed' stop='1671486138381'>
+                    <name>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: iPhone</name>
+                    <title>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: iPhone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671486139156' status='passed' stop='1671486139156'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1671486139219' status='passed' stop='1671486140186'>
+            <name>Debería buscar Canon EOS 5D</name>
+            <title>Debería buscar Canon EOS 5D</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1671486139220' status='passed' stop='1671486139220'>
+                    <name>Abrir sitio web: undefined</name>
+                    <title>Abrir sitio web: undefined</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671486139509' status='passed' stop='1671486139509'>
+                    <name>Vaciar el campo escribir el nombre del articulo y apretar enter para enviarlo: Canon EOS 5D</name>
+                    <title>Vaciar el campo escribir el nombre del articulo y apretar enter para enviarlo: Canon EOS 5D</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671486139555' status='passed' stop='1671486139555'>
+                    <name>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: Canon EOS 5D</name>
+                    <title>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: Canon EOS 5D</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671486140163' status='passed' stop='1671486140163'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1671486140186' status='passed' stop='1671486141202'>
+            <name>Debería buscar MacBook</name>
+            <title>Debería buscar MacBook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1671486140186' status='passed' stop='1671486140186'>
+                    <name>Abrir sitio web: undefined</name>
+                    <title>Abrir sitio web: undefined</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671486140464' status='passed' stop='1671486140464'>
+                    <name>Vaciar el campo escribir el nombre del articulo y apretar enter para enviarlo: MacBook</name>
+                    <title>Vaciar el campo escribir el nombre del articulo y apretar enter para enviarlo: MacBook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671486140499' status='passed' stop='1671486140499'>
+                    <name>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: MacBook</name>
+                    <title>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: MacBook</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671486141170' status='passed' stop='1671486141170'>
+                    <name>Obtener texto de la barra de búsqueda</name>
+                    <title>Obtener texto de la barra de búsqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671333495206' stop='1671333498283'>
+    <name>Color</name>
+    <title>Color</title>
+    <test-cases>
+        <test-case start='1671333495206' status='passed' stop='1671333498282'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1671333495295' status='passed' stop='1671333495295'>
+                    <name>Abrir sitio web: undefined</name>
+                    <title>Abrir sitio web: undefined</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671333497349' status='passed' stop='1671333497349'>
+                    <name>Buscar artículo: apple cinema</name>
+                    <title>Buscar artículo: apple cinema</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671333497469' status='passed' stop='1671333497469'>
+                    <name>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: apple cinema</name>
+                    <title>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: apple cinema</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

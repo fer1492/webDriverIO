@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671339638980' stop='1671339642357'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1671339638980' status='broken' stop='1671339642356'>
+            <name>Debería añadir el articulo al carro</name>
+            <title>Debería añadir el articulo al carro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1671339639079' status='passed' stop='1671339639079'>
+                    <name>Abrir sitio web: /</name>
+                    <title>Abrir sitio web: /</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671339641404' status='passed' stop='1671339641404'>
+                    <name>Buscar artículo: iphone</name>
+                    <title>Buscar artículo: iphone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671339641466' status='passed' stop='1671339641466'>
+                    <name>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: iphone</name>
+                    <title>Vaciar campo, hacer click en el elemento: [object Object] y escribir el texto: iphone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='a9619140-e42e-4fc3-9631-7b37c2f35754-attachment.png' type='image/png' size='113423'/>
+            </attachments>
+            <failure>
+                <message>ele.click is not a function</message>
+                <stack-trace>TypeError: ele.click is not a function
+                    at BusquedaPage.clickearEl (D:\WebdriverIO-Curso-Abstracta\pages\/base.page.js:24:15)
+                    at BusquedaPage.ingresarResul (D:\WebdriverIO-Curso-Abstracta\pages\/busqueda.page.js:10:16)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/añadirAlCarro.test.js:8:24)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

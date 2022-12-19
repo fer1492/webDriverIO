@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671327695687' stop='1671327699240'>
+    <name>Color</name>
+    <title>Color</title>
+    <test-cases>
+        <test-case start='1671327695688' status='passed' stop='1671327699239'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1671327695790' status='passed' stop='1671327695790'>
+                    <name>Abrir sitio web: http://opencart.abstracta.us</name>
+                    <title>Abrir sitio web: http://opencart.abstracta.us</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671327698323' status='passed' stop='1671327698323'>
+                    <name>Buscar artículo: apple cinema</name>
+                    <title>Buscar artículo: apple cinema</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

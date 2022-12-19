@@ -1,31 +1,20 @@
 const PAGE_TIMEOUT = 10000;
 
 export default class BasePage {
-  /**
-   * Abrir página
-   * @param {String} ruta a la cual acceder
-   */
   async abrir(ruta) {
+    addStep(`Abrir sitio web: ${ruta}`)
     await browser.url(`${ruta}`);
   }
 
-  /**
-   * Esperar a que un elemento sea clickeable y hacer click
-   * @param {Object} elemento a clickear
-   */
   async clickearElemento(elemento) {
+    addStep(`Click en el elemento: ${elemento}`)
     await elemento.waitForClickable({ timeout: PAGE_TIMEOUT });
     await elemento.click();
   }
 
-
-  /**
-   * Método para enviar texto a un elemento
-   * @param {Object} elemento que recibirá el texto
-   * @param {String} texto a envíar
-   */
   async vaciarCampoYEnviarTexto(elemento, texto) {
     await elemento.waitForClickable({ timeout: PAGE_TIMEOUT });
+    addStep(`Vaciar campo, hacer click en el elemento: ${elemento} y escribir el texto: ${texto}`);
     await elemento.clearValue();
     await elemento.click();
     await elemento.keys(texto);
