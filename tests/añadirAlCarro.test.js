@@ -1,13 +1,17 @@
 import homePage from "../pages/home.page";
 import busquedaPage from "../pages/busqueda.page";
 
-const IPHONE = 'iphone';
+const iphoneSearch = 'iphone';
 
 describe('Carrito', () => {
   it('Debería añadir el articulo al carro', async () => {
+    addStep('Ingresa al sitio web');
     await homePage.abrir();
-    await homePage.buscar(IPHONE);
+    addStep('Busca iphone');
+    await homePage.buscar(iphoneSearch);
+    addStep('Ingresa al resultado de la busqueda');
     await busquedaPage.ingresarAlResultado();
+    addStep('Ingresa el producto al carrito');
     await busquedaPage.ingresarAlProducto();
   });
 });

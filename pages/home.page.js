@@ -1,31 +1,34 @@
 import BasePage from "../pages/base.page";
 
-const BUSQUEDA= '[name="search"]';
-const FOOTER = 'footer' ;
-const SELECCIONAR_COLOR = 'select';
-const PULSAR_ENTER = 'Enter';
+const searchName= '[name="search"]';
+const footerSelector = 'footer' ;
+const colorSelector = 'select';
+const pressEnterKey= 'Enter';
 
 class HomePage extends BasePage {
 
   get barraDeBusqueda() {
-    return $(BUSQUEDA);
+    return $(searchName);
   }
   get footer(){
-    return $(FOOTER);
+    return $(footerSelector);
   }
 
   get dropDownColor(){
-    return $(SELECCIONAR_COLOR);
+    return $(colorSelector);
   }
 
+  /**
+   * Busca un articulo dado
+   * @param {Object} articulo dado
+   */
+
   async buscar(articulo) {
-    addStep(`Vaciar el campo escribir el nombre del articulo y apretar enter para enviarlo: ${articulo}`)
     await super.vaciarCampoYEnviarTexto(await this.barraDeBusqueda, articulo);
-    await this.barraDeBusqueda.keys(PULSAR_ENTER);
+    await this.barraDeBusqueda.keys(pressEnterKey);
   }
 
   async obtenerTextoBusqueda() {
-    addStep('Obtener texto de la barra de búsqueda');
     return await this.barraDeBusqueda.getValue();
   }
 }
