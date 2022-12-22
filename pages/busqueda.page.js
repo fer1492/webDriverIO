@@ -2,6 +2,7 @@ import BasePage from "../pages/base.page";
 
 const articleImg = ".img-responsive";
 const addToCartButton = '#button-cart';
+const carritoBtn = '//*[@id="product-product"]/div[1]/a[2]';
 
 
 class BusquedaPage extends BasePage {
@@ -12,6 +13,10 @@ class BusquedaPage extends BasePage {
 
   async ingresarAlProducto(){
     await $(addToCartButton).click();
+  }
+
+  async ingresarAlCarrito(){
+    await $(carritoBtn).click();
   }
 
   async obtenerNombreResultado() {
