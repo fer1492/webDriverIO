@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671772749346' stop='1671772758825'>
+    <name>Color</name>
+    <title>Color</title>
+    <test-cases>
+        <test-case start='1671772749346' status='broken' stop='1671772758825'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1671772749437' status='passed' stop='1671772749437'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671772751021' status='passed' stop='1671772751021'>
+                    <name>Hace scroll hasta que se vea el footer</name>
+                    <title>Hace scroll hasta que se vea el footer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671772751193' status='passed' stop='1671772751193'>
+                    <name>Busca apple cinema</name>
+                    <title>Busca apple cinema</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671772751969' status='passed' stop='1671772751969'>
+                    <name>Selecciona el color dos de apple cinema</name>
+                    <title>Selecciona el color dos de apple cinema</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='d78845d6-4e43-4114-bd48-e61afd8fc168-attachment.png' type='image/png' size='205059'/>
+            </attachments>
+            <failure>
+                <message>homeBtn.click is not a function</message>
+                <stack-trace>TypeError: homeBtn.click is not a function
+                    at HomePage.volverHome (D:\WebdriverIO-Curso-Abstracta\pages\/home.page.js:49:21)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/seleccionarColor.test.js:20:20)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

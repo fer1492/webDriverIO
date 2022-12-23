@@ -5,8 +5,13 @@ const footerSelector = 'footer' ;
 const colorSelector = 'select';
 const pressEnterKey= 'Enter';
 const verificarProducto = '#content > form > div > table > tbody > tr > td:nth-child(3)';
+const homeBtn = '#logo > h1 > a';
 
 class HomePage extends BasePage {
+
+  get volverAlHome(){
+    return $(homeBtn);
+  }
 
   get barraDeBusqueda() {
     return $(searchName);
@@ -39,6 +44,9 @@ class HomePage extends BasePage {
 
   async obtenerTextoBusquedaCarrito(){
     return await this.productoCarrito.getValue();
+  }
+  async volverHome(){
+    await $(homeBtn).click();
   }
 
 }

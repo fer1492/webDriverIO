@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671770552192' stop='1671770564787'>
+    <name>Color</name>
+    <title>Color</title>
+    <test-cases>
+        <test-case start='1671770552193' status='broken' stop='1671770564785'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1671770552311' status='passed' stop='1671770552312'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671770553738' status='passed' stop='1671770553738'>
+                    <name>Hace scroll hasta que se vea el footer</name>
+                    <title>Hace scroll hasta que se vea el footer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671770553842' status='passed' stop='1671770553842'>
+                    <name>Busca apple cinema</name>
+                    <title>Busca apple cinema</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671770554622' status='passed' stop='1671770554622'>
+                    <name>Selecciona el color dos de apple cinema</name>
+                    <title>Selecciona el color dos de apple cinema</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='37e6192e-2655-43ba-86f0-21f9df26c0e0-attachment.png' type='image/png' size='124764'/>
+            </attachments>
+            <failure>
+                <message>Can't call click on element with selector "#button-cart" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "#button-cart" because element wasn't found
+                    at implicitWait (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at Element.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at BusquedaPage.ingresarAlProducto (D:\WebdriverIO-Curso-Abstracta\pages\/busqueda.page.js:15:5)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/seleccionarColor.test.js:16:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

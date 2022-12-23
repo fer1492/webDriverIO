@@ -13,6 +13,10 @@ it('Debería buscar apple cinema, ingresar al artículo y seleccionar un color',
     addStep('Busca apple cinema');
     await homePage.buscar(appleCinemaSearch);
     addStep('Selecciona el color dos de apple cinema');
+    await busquedaPage.ingresarAlResultado();
     await homePage.dropDownColor.selectByIndex(indexNumberTwo);
+    expect(await homePage.barraDeBusqueda.scrollIntoView());
+    addStep('Regresa al home');
+    await homePage.volverHome();
 });
 });

@@ -3,7 +3,6 @@ import busquedaPage from "../pages/busqueda.page";
 
 const iphoneSearch = 'iphone';
 
-
 describe('Carrito', () => {
   it('Debería añadir el articulo al carro', async () => {
     addStep('Ingresa al sitio web');
@@ -18,5 +17,7 @@ describe('Carrito', () => {
     await busquedaPage.ingresarAlCarrito();
     addStep('Verifica que el producto este en el carrito');
     await homePage.obtenerTextoBusquedaCarrito();
+    addStep('Regresa al home');
+    await homePage.volverHome();
   });
 });
