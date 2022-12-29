@@ -1,0 +1,142 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672292809844' stop='1672292815303'>
+    <name>Búsqueda de varios articulos: </name>
+    <title>Búsqueda de varios articulos: </title>
+    <test-cases>
+        <test-case start='1672292809845' status='failed' stop='1672292812970'>
+            <name>Debería buscar iPhone</name>
+            <title>Debería buscar iPhone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672292809967' status='passed' stop='1672292809967'>
+                    <name>Abre la pagina</name>
+                    <title>Abre la pagina</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672292811880' status='passed' stop='1672292811880'>
+                    <name>Busca el articulo que le pasamos por parámetro</name>
+                    <title>Busca el articulo que le pasamos por parámetro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672292812741' status='passed' stop='1672292812741'>
+                    <name>Se verifica si el articulo encontrado coincide con el que buscamos</name>
+                    <title>Se verifica si el articulo encontrado coincide con el que buscamos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ac5715d7-9960-4445-be3e-820e846eed1e-attachment.png' type='image/png' size='113776'/>
+            </attachments>
+            <failure>
+                <message>expected null to equal 'iPhone'      
+                      actual expected
+                      
+                      null'iPhone'
+                      </message>
+                <stack-trace>AssertionError: expected null to equal 'iPhone'
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/buscarArticulos.test.js:12:62)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672292812970' status='failed' stop='1672292814114'>
+            <name>Debería buscar Canon EOS 5D</name>
+            <title>Debería buscar Canon EOS 5D</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672292812970' status='passed' stop='1672292812970'>
+                    <name>Abre la pagina</name>
+                    <title>Abre la pagina</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672292813243' status='passed' stop='1672292813243'>
+                    <name>Busca el articulo que le pasamos por parámetro</name>
+                    <title>Busca el articulo que le pasamos por parámetro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672292813908' status='passed' stop='1672292813908'>
+                    <name>Se verifica si el articulo encontrado coincide con el que buscamos</name>
+                    <title>Se verifica si el articulo encontrado coincide con el que buscamos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='9523ab74-1d84-425d-979c-24df1c8d6513-attachment.png' type='image/png' size='133833'/>
+            </attachments>
+            <failure>
+                <message>expected null to equal 'Canon EOS 5D'      
+                      actual expected
+                      
+                      null'Canon EOS 5D'
+                      </message>
+                <stack-trace>AssertionError: expected null to equal 'Canon EOS 5D'
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/buscarArticulos.test.js:12:62)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672292814115' status='failed' stop='1672292815302'>
+            <name>Debería buscar MacBook</name>
+            <title>Debería buscar MacBook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672292814116' status='passed' stop='1672292814116'>
+                    <name>Abre la pagina</name>
+                    <title>Abre la pagina</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672292814414' status='passed' stop='1672292814414'>
+                    <name>Busca el articulo que le pasamos por parámetro</name>
+                    <title>Busca el articulo que le pasamos por parámetro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672292815147' status='passed' stop='1672292815147'>
+                    <name>Se verifica si el articulo encontrado coincide con el que buscamos</name>
+                    <title>Se verifica si el articulo encontrado coincide con el que buscamos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='2bd8dfd8-d1b8-42d0-a987-e668292c51ff-attachment.png' type='image/png' size='190318'/>
+            </attachments>
+            <failure>
+                <message>expected null to equal 'MacBook'      
+                      actual expected
+                      
+                      null'MacBook'
+                      </message>
+                <stack-trace>AssertionError: expected null to equal 'MacBook'
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/buscarArticulos.test.js:12:62)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

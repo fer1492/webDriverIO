@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672112120454' stop='1672112127229'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1672112120455' status='passed' stop='1672112127229'>
+            <name>Debería añadir el articulo al carro</name>
+            <title>Debería añadir el articulo al carro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672112120604' status='passed' stop='1672112120604'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672112122222' status='passed' stop='1672112122222'>
+                    <name>Busca iphone</name>
+                    <title>Busca iphone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672112123162' status='passed' stop='1672112123162'>
+                    <name>Ingresa al resultado de la busqueda</name>
+                    <title>Ingresa al resultado de la busqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672112124712' status='passed' stop='1672112124712'>
+                    <name>Ingresa el producto al carrito</name>
+                    <title>Ingresa el producto al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672112124790' status='passed' stop='1672112124790'>
+                    <name>Ingresa al carrito</name>
+                    <title>Ingresa al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672112125788' status='passed' stop='1672112125788'>
+                    <name>Verifica que el producto este en el carrito</name>
+                    <title>Verifica que el producto este en el carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672112125827' status='passed' stop='1672112125827'>
+                    <name>Regresa al home</name>
+                    <title>Regresa al home</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672112120464' stop='1672112134438'>
+    <name>Color</name>
+    <title>Color</title>
+    <test-cases>
+        <test-case start='1672112120465' status='passed' stop='1672112134438'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672112120612' status='passed' stop='1672112120612'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672112122222' status='passed' stop='1672112122222'>
+                    <name>Hace scroll hasta que se vea el footer</name>
+                    <title>Hace scroll hasta que se vea el footer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672112122300' status='passed' stop='1672112122300'>
+                    <name>Busca apple cinema</name>
+                    <title>Busca apple cinema</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672112123273' status='passed' stop='1672112123273'>
+                    <name>Selecciona el color dos de apple cinema</name>
+                    <title>Selecciona el color dos de apple cinema</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672112125001' status='passed' stop='1672112125001'>
+                    <name>Regresa al home</name>
+                    <title>Regresa al home</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

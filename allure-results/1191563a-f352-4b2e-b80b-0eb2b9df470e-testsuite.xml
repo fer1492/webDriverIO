@@ -1,0 +1,148 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672293921211' stop='1672293926323'>
+    <name>Búsqueda de varios articulos: </name>
+    <title>Búsqueda de varios articulos: </title>
+    <test-cases>
+        <test-case start='1672293921212' status='broken' stop='1672293924001'>
+            <name>Debería buscar iPhone</name>
+            <title>Debería buscar iPhone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672293921332' status='passed' stop='1672293921332'>
+                    <name>Abre la pagina</name>
+                    <title>Abre la pagina</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672293922856' status='passed' stop='1672293922856'>
+                    <name>Busca el articulo que le pasamos por parámetro</name>
+                    <title>Busca el articulo que le pasamos por parámetro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672293923783' status='passed' stop='1672293923783'>
+                    <name>Se verifica si el articulo encontrado coincide con el que buscamos</name>
+                    <title>Se verifica si el articulo encontrado coincide con el que buscamos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='2b0683eb-bad6-49fd-9c32-9246148413c5-attachment.png' type='image/png' size='113783'/>
+            </attachments>
+            <failure>
+                <message>The selector "&lt;a href="http://opencart.abstracta.us:80/index.php?route=product/product&amp;amp;product_id=40&amp;amp;search=iphone">iPhone&lt;/a>" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "&lt;a href="http://opencart.abstracta.us:80/index.php?route=product/product&amp;amp;product_id=40&amp;amp;search=iphone">iPhone&lt;/a>" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Browser.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at HomePage.obtenerTextoBusqueda (D:\WebdriverIO-Curso-Abstracta\pages\/home.page.js:44:12)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/buscarArticulos.test.js:12:20)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672293924001' status='broken' stop='1672293925160'>
+            <name>Debería buscar Canon EOS 5D</name>
+            <title>Debería buscar Canon EOS 5D</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672293924002' status='passed' stop='1672293924002'>
+                    <name>Abre la pagina</name>
+                    <title>Abre la pagina</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672293924276' status='passed' stop='1672293924276'>
+                    <name>Busca el articulo que le pasamos por parámetro</name>
+                    <title>Busca el articulo que le pasamos por parámetro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672293924933' status='passed' stop='1672293924933'>
+                    <name>Se verifica si el articulo encontrado coincide con el que buscamos</name>
+                    <title>Se verifica si el articulo encontrado coincide con el que buscamos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='2cbf3b96-a16a-4193-a279-9b4d89b95256-attachment.png' type='image/png' size='133833'/>
+            </attachments>
+            <failure>
+                <message>The selector "&lt;a href="http://opencart.abstracta.us:80/index.php?route=product/product&amp;amp;product_id=40&amp;amp;search=iphone">iPhone&lt;/a>" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "&lt;a href="http://opencart.abstracta.us:80/index.php?route=product/product&amp;amp;product_id=40&amp;amp;search=iphone">iPhone&lt;/a>" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Browser.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at HomePage.obtenerTextoBusqueda (D:\WebdriverIO-Curso-Abstracta\pages\/home.page.js:44:12)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/buscarArticulos.test.js:12:20)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672293925160' status='broken' stop='1672293926322'>
+            <name>Debería buscar MacBook Air</name>
+            <title>Debería buscar MacBook Air</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672293925161' status='passed' stop='1672293925161'>
+                    <name>Abre la pagina</name>
+                    <title>Abre la pagina</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672293925443' status='passed' stop='1672293925443'>
+                    <name>Busca el articulo que le pasamos por parámetro</name>
+                    <title>Busca el articulo que le pasamos por parámetro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672293926149' status='passed' stop='1672293926149'>
+                    <name>Se verifica si el articulo encontrado coincide con el que buscamos</name>
+                    <title>Se verifica si el articulo encontrado coincide con el que buscamos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='2c46bc1d-7acb-4892-9f09-3210e4cb8659-attachment.png' type='image/png' size='114460'/>
+            </attachments>
+            <failure>
+                <message>The selector "&lt;a href="http://opencart.abstracta.us:80/index.php?route=product/product&amp;amp;product_id=40&amp;amp;search=iphone">iPhone&lt;/a>" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "&lt;a href="http://opencart.abstracta.us:80/index.php?route=product/product&amp;amp;product_id=40&amp;amp;search=iphone">iPhone&lt;/a>" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Browser.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at HomePage.obtenerTextoBusqueda (D:\WebdriverIO-Curso-Abstracta\pages\/home.page.js:44:12)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/buscarArticulos.test.js:12:20)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

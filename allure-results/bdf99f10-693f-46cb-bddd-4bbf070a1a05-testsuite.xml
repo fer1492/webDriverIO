@@ -1,0 +1,115 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672199264047' stop='1672199267919'>
+    <name>Búsqueda de varios articulos: </name>
+    <title>Búsqueda de varios articulos: </title>
+    <test-cases>
+        <test-case start='1672199264048' status='broken' stop='1672199266671'>
+            <name>Debería buscar iPhone</name>
+            <title>Debería buscar iPhone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672199264121' status='passed' stop='1672199264121'>
+                    <name>Abre la pagina</name>
+                    <title>Abre la pagina</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672199266095' status='passed' stop='1672199266095'>
+                    <name>Busca el articulo que le pasamos por parámetro</name>
+                    <title>Busca el articulo que le pasamos por parámetro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='b3c30845-1ca3-43b6-b34c-dc351f6f66c8-attachment.png' type='image/png' size='53441'/>
+            </attachments>
+            <failure>
+                <message>pressEnterKey is not defined</message>
+                <stack-trace>ReferenceError: pressEnterKey is not defined
+                    at HomePage.buscar (D:\WebdriverIO-Curso-Abstracta\pages\/home.page.js:37:37)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/buscarArticulos.test.js:10:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672199266675' status='broken' stop='1672199267383'>
+            <name>Debería buscar Canon EOS 5D</name>
+            <title>Debería buscar Canon EOS 5D</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672199266676' status='passed' stop='1672199266676'>
+                    <name>Abre la pagina</name>
+                    <title>Abre la pagina</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672199267028' status='passed' stop='1672199267028'>
+                    <name>Busca el articulo que le pasamos por parámetro</name>
+                    <title>Busca el articulo que le pasamos por parámetro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='b97c9137-d710-42b0-aef3-af32348c6e76-attachment.png' type='image/png' size='53596'/>
+            </attachments>
+            <failure>
+                <message>pressEnterKey is not defined</message>
+                <stack-trace>ReferenceError: pressEnterKey is not defined
+                    at HomePage.buscar (D:\WebdriverIO-Curso-Abstracta\pages\/home.page.js:37:37)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/buscarArticulos.test.js:10:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672199267384' status='broken' stop='1672199267917'>
+            <name>Debería buscar MacBook</name>
+            <title>Debería buscar MacBook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672199267387' status='passed' stop='1672199267387'>
+                    <name>Abre la pagina</name>
+                    <title>Abre la pagina</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672199267663' status='passed' stop='1672199267663'>
+                    <name>Busca el articulo que le pasamos por parámetro</name>
+                    <title>Busca el articulo que le pasamos por parámetro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='655b7328-d292-4daa-8538-92030f4eaa4e-attachment.png' type='image/png' size='52567'/>
+            </attachments>
+            <failure>
+                <message>pressEnterKey is not defined</message>
+                <stack-trace>ReferenceError: pressEnterKey is not defined
+                    at HomePage.buscar (D:\WebdriverIO-Curso-Abstracta\pages\/home.page.js:37:37)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/buscarArticulos.test.js:10:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,26 +1,46 @@
 import BasePage from "../pages/base.page";
 
-const articleImg = ".img-responsive";
-const addToCartButton = '#button-cart';
-const carritoBtn = '//*[@id="product-product"]/div[1]/a[2]';
-
-
 class BusquedaPage extends BasePage {
 
+  get iphone(){
+    return $('//a[text()="iPhone"]');
+  }
+
+  get iphoneResult(){
+    return $('//h1[text()="iPhone"]');
+  }
+
+  get productoId(){
+    return $('//td[text()="product 11"]')
+  }
+
+  /**
+   * Ingresa al producto que se ha buscado
+   */
   async ingresarAlResultado() {
-    await $(articleImg).click();
+    await $(".img-responsive").click();
   }
 
+  /**
+   * Ingresa el producto al carrito
+   */
   async ingresarAlProducto(){
-    await $(addToCartButton).click();
+    await $('/html/body/div[2]/div/div/div[1]/div[2]/div[2]/div/button').click();
   }
 
+/**
+ * Hace click en el boton para ver el carrito
+ */
   async ingresarAlCarrito(){
-    await $(carritoBtn).click();
+    await $('#cart-total').click();
   }
 
-  async obtenerNombreResultado() {
-    return await this.resultado.getText();
+  /**
+   * Ingresa al carrito
+   */
+  async mostrarCarrito(){
+    await $('#cart > ul > li:nth-child(2) > div > p > a:nth-child(1) > strong > i').click()
   }
+
 }
 export default new BusquedaPage();

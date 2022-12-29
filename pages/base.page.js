@@ -13,7 +13,6 @@ export default class BasePage {
    * Clickea en un elemento
    * @param {Object} elemento al cuál se le hace click
    */
-
   async clickearElemento(elemento) {
     await elemento.waitForClickable({ timeout: PAGE_TIMEOUT });
     await elemento.click();
@@ -24,7 +23,6 @@ export default class BasePage {
    * @param {Object} elemento a vaciar
    * @param {String} texto a envíar
    */
-
   async vaciarCampoYEnviarTexto(elemento, texto) {
     await elemento.waitForClickable({ timeout: PAGE_TIMEOUT });
     await elemento.clearValue();
