@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672453215797' stop='1672453231099'>
+    <name>Menu</name>
+    <title>Menu</title>
+    <test-cases>
+        <test-case start='1672453215798' status='passed' stop='1672453231098'>
+            <name>Debería ingresar a Desktops/Mac y verificar que esten las macs</name>
+            <title>Debería ingresar a Desktops/Mac y verificar que esten las macs</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

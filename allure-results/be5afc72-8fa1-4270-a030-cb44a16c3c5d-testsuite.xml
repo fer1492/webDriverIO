@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672445688883' stop='1672445704327'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1672445688883' status='failed' stop='1672445704326'>
+            <name>Debería añadir el articulo al carro</name>
+            <title>Debería añadir el articulo al carro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='81c99c59-900a-4efc-8d81-5784be9b2e0d-attachment.png' type='image/png' size='127743'/>
+            </attachments>
+            <failure>
+                <message>expected null to equal 'iMac'      
+                      actual expected
+                      
+                      null'iMac'
+                      </message>
+                <stack-trace>AssertionError: expected null to equal 'iMac'
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/menuImac.test.js:10:50)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672442631752' stop='1672442633744'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1672442631753' status='broken' stop='1672442633743'>
+            <name>Debería añadir el articulo al carro</name>
+            <title>Debería añadir el articulo al carro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e1b898e6-698c-4f63-b53d-1e58fa2c07a9-attachment.png' type='image/png' size='52197'/>
+            </attachments>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=108.0.5359.125)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=108.0.5359.125)
+                    at getErrorFromResponseBody (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Element.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at menuPage.ingresarDesktops (D:\WebdriverIO-Curso-Abstracta\pages\/menu.page.js:12:5)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/menuImac.test.js:7:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

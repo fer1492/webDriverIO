@@ -19,9 +19,6 @@ class HomePage extends BasePage {
     return $('select');
   }
 
-  /*get productoCarrito(){
-    return $('#button-cart');
-  }*/
 
   /**
    * Busca un articulo dado

@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672451281174' stop='1672451296701'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1672451281174' status='broken' stop='1672451296701'>
+            <name>Debería añadir el articulo al carro</name>
+            <title>Debería añadir el articulo al carro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='10ec3ce4-3786-4530-8712-94408cb5acd1-attachment.png' type='image/png' size='127743'/>
+            </attachments>
+            <failure>
+                <message>_menu.default.verMac.isDisplayed is not a function</message>
+                <stack-trace>TypeError: _menu.default.verMac.isDisplayed is not a function
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/menuImac.test.js:12:34)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

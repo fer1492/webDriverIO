@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672448767154' stop='1672448782482'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1672448767154' status='broken' stop='1672448782481'>
+            <name>Debería añadir el articulo al carro</name>
+            <title>Debería añadir el articulo al carro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='785a52cc-db76-43ec-97c1-ced1ee3b07a6-attachment.png' type='image/png' size='127743'/>
+            </attachments>
+            <failure>
+                <message>The selector "[id=41]" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors</message>
+                <stack-trace>invalid selector: The selector "[id=41]" used with strategy "css selector" is invalid! For more information on selectors visit the WebdriverIO docs at: https://webdriver.io/docs/selectors
+                    at getErrorFromResponseBody (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Browser.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Browser.$ (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at Browser.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at menuPage.obtenerMac (D:\WebdriverIO-Curso-Abstracta\pages\/menu.page.js:18:12)
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/menuImac.test.js:10:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

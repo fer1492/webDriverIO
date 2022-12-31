@@ -5,7 +5,7 @@ import busquedaPage from "../pages/busqueda.page";
 describe('Carrito', () => {
   it('Debería añadir el articulo al carro', async () => {
     addStep('Ingresa al sitio web');
-    await homePage.abrir();
+    await homePage.abrir("/");
     addStep('Busca iphone');
     await homePage.buscar('iphone');
     addStep('Ingresa al resultado de la busqueda');

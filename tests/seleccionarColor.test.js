@@ -5,7 +5,7 @@ import busquedaPage from "../pages/busqueda.page";
 describe('Color', () => {
 it('Debería buscar apple cinema, ingresar al artículo y seleccionar un color', async () => {
     addStep('Ingresa al sitio web');
-    await homePage.abrir();
+    await homePage.abrir("/");
     addStep('Hace scroll hasta que se vea el footer');
     await homePage.footer.scrollIntoView();
     addStep('Busca apple cinema');

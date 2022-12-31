@@ -14,6 +14,10 @@ class BusquedaPage extends BasePage {
     return $('//td[text()="product 11"]')
   }
 
+  get iMac(){
+    return $('//a[text()="iMac"]')
+  }
+
   /**
    * Ingresa al producto que se ha buscado
    */
