@@ -29,7 +29,7 @@ class BusquedaPage extends BasePage {
    * Ingresa el producto al carrito
    */
   async ingresarAlProducto(){
-    await $('/html/body/div[2]/div/div/div[1]/div[2]/div[2]/div/button').click();
+    await $('.form-group #button-cart').click();
   }
 
 /**
@@ -43,7 +43,7 @@ class BusquedaPage extends BasePage {
    * Ingresa al carrito
    */
   async mostrarCarrito(){
-    await $('#cart > ul > li:nth-child(2) > div > p > a:nth-child(1) > strong > i').click()
+    await $('strong i').click()
   }
 
 }

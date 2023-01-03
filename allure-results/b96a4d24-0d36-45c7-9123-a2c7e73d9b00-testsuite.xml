@@ -1,0 +1,148 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672705267750' stop='1672705273843'>
+    <name>Búsqueda de varios articulos: </name>
+    <title>Búsqueda de varios articulos: </title>
+    <test-cases>
+        <test-case start='1672705267750' status='broken' stop='1672705271485'>
+            <name>Debería buscar iPhone</name>
+            <title>Debería buscar iPhone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672705267880' status='passed' stop='1672705267880'>
+                    <name>Abre la pagina</name>
+                    <title>Abre la pagina</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672705270251' status='passed' stop='1672705270251'>
+                    <name>Busca el articulo que le pasamos por parámetro</name>
+                    <title>Busca el articulo que le pasamos por parámetro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672705271260' status='passed' stop='1672705271260'>
+                    <name>Se verifica si el articulo encontrado coincide con el que buscamos</name>
+                    <title>Se verifica si el articulo encontrado coincide con el que buscamos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672705271337' status='passed' stop='1672705271337'>
+                    <name>Regresa al home</name>
+                    <title>Regresa al home</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='a520b773-e608-4fad-ac24-83608c13e274-attachment.png' type='image/png' size='113776'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'isDisplayed')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'isDisplayed')
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/buscarArticulos.test.js:14:33)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672705271486' status='broken' stop='1672705272699'>
+            <name>Debería buscar Canon EOS 5D</name>
+            <title>Debería buscar Canon EOS 5D</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672705271486' status='passed' stop='1672705271486'>
+                    <name>Abre la pagina</name>
+                    <title>Abre la pagina</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672705271811' status='passed' stop='1672705271811'>
+                    <name>Busca el articulo que le pasamos por parámetro</name>
+                    <title>Busca el articulo que le pasamos por parámetro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672705272501' status='passed' stop='1672705272501'>
+                    <name>Se verifica si el articulo encontrado coincide con el que buscamos</name>
+                    <title>Se verifica si el articulo encontrado coincide con el que buscamos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672705272558' status='passed' stop='1672705272558'>
+                    <name>Regresa al home</name>
+                    <title>Regresa al home</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='a874db31-db22-4785-86e7-605c0b3fcea5-attachment.png' type='image/png' size='133833'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'isDisplayed')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'isDisplayed')
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/buscarArticulos.test.js:14:33)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1672705272700' status='broken' stop='1672705273842'>
+            <name>Debería buscar MacBook Air</name>
+            <title>Debería buscar MacBook Air</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672705272700' status='passed' stop='1672705272700'>
+                    <name>Abre la pagina</name>
+                    <title>Abre la pagina</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672705273019' status='passed' stop='1672705273019'>
+                    <name>Busca el articulo que le pasamos por parámetro</name>
+                    <title>Busca el articulo que le pasamos por parámetro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672705273674' status='passed' stop='1672705273674'>
+                    <name>Se verifica si el articulo encontrado coincide con el que buscamos</name>
+                    <title>Se verifica si el articulo encontrado coincide con el que buscamos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672705273698' status='passed' stop='1672705273698'>
+                    <name>Regresa al home</name>
+                    <title>Regresa al home</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='3df358ac-e32f-4c94-9fe0-195fa87dbd50-attachment.png' type='image/png' size='114796'/>
+            </attachments>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'isDisplayed')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'isDisplayed')
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/buscarArticulos.test.js:14:33)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

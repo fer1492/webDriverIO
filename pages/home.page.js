@@ -1,7 +1,5 @@
 import BasePage from "../pages/base.page";
 
-const homeBtn = 'h1 a';
-
 class HomePage extends BasePage {
 
   get volverAlHome(){
@@ -49,7 +47,7 @@ class HomePage extends BasePage {
    * Vuelve al home clcikeando en el boton Your Store
    */
   async volverHome(){
-    await $(homeBtn).click();
+    return await this.volverAlHome.getValue();
   }
 
 }

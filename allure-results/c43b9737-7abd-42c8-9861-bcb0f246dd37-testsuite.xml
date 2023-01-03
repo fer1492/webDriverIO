@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672709953035' stop='1672709958886'>
+    <name>Búsqueda de varios articulos: </name>
+    <title>Búsqueda de varios articulos: </title>
+    <test-cases>
+        <test-case start='1672709953036' status='passed' stop='1672709956419'>
+            <name>Debería buscar iPhone</name>
+            <title>Debería buscar iPhone</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672709953163' status='passed' stop='1672709953163'>
+                    <name>Abre la pagina</name>
+                    <title>Abre la pagina</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672709955414' status='passed' stop='1672709955414'>
+                    <name>Busca el articulo que le pasamos por parámetro</name>
+                    <title>Busca el articulo que le pasamos por parámetro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672709956285' status='passed' stop='1672709956285'>
+                    <name>Se verifica si el articulo encontrado coincide con el que buscamos</name>
+                    <title>Se verifica si el articulo encontrado coincide con el que buscamos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672709956331' status='passed' stop='1672709956331'>
+                    <name>Regresa al home</name>
+                    <title>Regresa al home</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1672709956420' status='passed' stop='1672709957621'>
+            <name>Debería buscar Canon EOS 5D</name>
+            <title>Debería buscar Canon EOS 5D</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672709956421' status='passed' stop='1672709956421'>
+                    <name>Abre la pagina</name>
+                    <title>Abre la pagina</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672709956748' status='passed' stop='1672709956748'>
+                    <name>Busca el articulo que le pasamos por parámetro</name>
+                    <title>Busca el articulo que le pasamos por parámetro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672709957541' status='passed' stop='1672709957541'>
+                    <name>Se verifica si el articulo encontrado coincide con el que buscamos</name>
+                    <title>Se verifica si el articulo encontrado coincide con el que buscamos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672709957569' status='passed' stop='1672709957569'>
+                    <name>Regresa al home</name>
+                    <title>Regresa al home</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1672709957622' status='passed' stop='1672709958885'>
+            <name>Debería buscar MacBook Air</name>
+            <title>Debería buscar MacBook Air</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672709957622' status='passed' stop='1672709957622'>
+                    <name>Abre la pagina</name>
+                    <title>Abre la pagina</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672709957986' status='passed' stop='1672709957986'>
+                    <name>Busca el articulo que le pasamos por parámetro</name>
+                    <title>Busca el articulo que le pasamos por parámetro</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672709958817' status='passed' stop='1672709958817'>
+                    <name>Se verifica si el articulo encontrado coincide con el que buscamos</name>
+                    <title>Se verifica si el articulo encontrado coincide con el que buscamos</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672709958839' status='passed' stop='1672709958839'>
+                    <name>Regresa al home</name>
+                    <title>Regresa al home</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
