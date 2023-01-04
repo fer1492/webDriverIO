@@ -17,8 +17,8 @@ class MenuPage extends BasePage{
   async obtenerMac(){
     return await this.mac.getValue();
   }
-  async verMac(){
-    await $('#content > div:nth-child(3) > div > div > div.image > a > img');
+  async verProducto(){
+    await $('h4');
   }
 }
 export default new MenuPage;
