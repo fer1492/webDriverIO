@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672847571910' stop='1672847576869'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1672847571911' status='broken' stop='1672847576868'>
+            <name>Debería añadir el articulo al carro</name>
+            <title>Debería añadir el articulo al carro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672847572015' status='passed' stop='1672847572015'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672847574409' status='passed' stop='1672847574409'>
+                    <name>Busca iphone</name>
+                    <title>Busca iphone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672847575216' status='passed' stop='1672847575216'>
+                    <name>Ingresa al resultado de la busqueda</name>
+                    <title>Ingresa al resultado de la busqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='9de1d504-ab2a-454b-93da-a64179d64127-attachment.png' type='image/png' size='185258'/>
+            </attachments>
+            <failure>
+                <message>_busqueda.default.product.getValue is not a function</message>
+                <stack-trace>TypeError: _busqueda.default.product.getValue is not a function
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/añadirAlCarro.test.js:13:39)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

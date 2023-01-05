@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672841878331' stop='1672841890135'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1672841878332' status='broken' stop='1672841890134'>
+            <name>Debería añadir el articulo al carro</name>
+            <title>Debería añadir el articulo al carro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672841878420' status='passed' stop='1672841878420'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672841880589' status='passed' stop='1672841880589'>
+                    <name>Busca iphone</name>
+                    <title>Busca iphone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672841881455' status='passed' stop='1672841881455'>
+                    <name>Ingresa al resultado de la busqueda</name>
+                    <title>Ingresa al resultado de la busqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='68d9dfcc-f378-4b31-aa53-c19754e6df70-attachment.png' type='image/png' size='186248'/>
+            </attachments>
+            <failure>
+                <message>_busqueda.default.product.isDisplayed is not a function</message>
+                <stack-trace>TypeError: _busqueda.default.product.isDisplayed is not a function
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/añadirAlCarro.test.js:13:40)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -10,7 +10,6 @@ describe('Menu', () => {
     addStep('Ingresa a mac');
     await menuPage.ingresarAmac();
     addStep('Verifica que haya algun producto');
-    //expect(await menuPage.verMac.isDisplayed(), 'No se esta mostrando el boton Your Store para volver al home').to.be.true;
     await menuPage.verProducto();
   });
 });

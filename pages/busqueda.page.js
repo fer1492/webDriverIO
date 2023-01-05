@@ -1,34 +1,57 @@
 import BasePage from "../pages/base.page";
 
 class BusquedaPage extends BasePage {
-
-  get iphone(){
-    return $('//a[text()="iPhone"]');
+  
+  get buttonCart(){
+    return $(' #product #button-cart') ;
   }
-
-  get iphoneResult(){
-    return $('//h1[text()="iPhone"]');
+  
+  get success(){
+    return $('//div[contains(text(),"Success")]');
   }
-
+  
   get productoId(){
-    return $('//td[text()="product 11"]')
-  }
-
-  get iMac(){
-    return $('//a[text()="iMac"]')
+    return $('//td[contains(text(),"product")]')
   }
 
   /**
    * Ingresa al producto que se ha buscado
+  */
+ async ingresarAlResultado() {
+   await $(".img-responsive").click();
+  }
+  
+  /**Devuelve el nombre del producto en base al que busquemos
+   * @param {String} productName nombre del producto buscado
+   * @returns selector
+  */
+ async product(productName){
+    const product = $(`//a[text()="${productName}"]`);
+    return product;
+  }
+  
+  /**Devuelve el nombre del producto en base al que busquemos
+   * @param {String} productResultName nombre del resultado del producto buscado
+   * @returns selector
    */
-  async ingresarAlResultado() {
-    await $(".img-responsive").click();
+  async productResult(result){
+    const selectorProductResult = await $(`[//h1[text()="${result}"]]`);
+    return selectorProductResult;
+  }
+
+  /**Devuelve el Id del producto en base al que busquemos
+   * @param {String} productResultName Id del resultado del producto buscado
+   * @returns selector
+   */
+  async productId(id){
+    const selectorProductId = await $(`//td[text()="${id}"]`);
+    return selectorProductId;
   }
 
   /**
    * Ingresa el producto al carrito
    */
-  async ingresarAlProducto(){
+  async ingresarElProducto(){
     await $('.form-group #button-cart').click();
   }
 
@@ -43,8 +66,9 @@ class BusquedaPage extends BasePage {
    * Ingresa al carrito
    */
   async mostrarCarrito(){
-    await $('strong i').click()
+    await $('strong .fa-shopping-cart').click()
   }
+
 
 }
 export default new BusquedaPage();

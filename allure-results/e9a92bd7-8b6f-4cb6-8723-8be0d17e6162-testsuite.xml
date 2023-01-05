@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672858440625' stop='1672858443665'>
+    <name>Menu</name>
+    <title>Menu</title>
+    <test-cases>
+        <test-case start='1672858440625' status='passed' stop='1672858443664'>
+            <name>Debería ingresar a Desktops/Mac y verificar que haya algún producto</name>
+            <title>Debería ingresar a Desktops/Mac y verificar que haya algún producto</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672858440748' status='passed' stop='1672858440748'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672858442963' status='passed' stop='1672858442963'>
+                    <name>Abre el menu de Desktops</name>
+                    <title>Abre el menu de Desktops</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672858443055' status='passed' stop='1672858443055'>
+                    <name>Ingresa a mac</name>
+                    <title>Ingresa a mac</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672858443634' status='passed' stop='1672858443634'>
+                    <name>Verifica que haya algun producto</name>
+                    <title>Verifica que haya algun producto</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

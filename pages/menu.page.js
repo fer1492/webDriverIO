@@ -2,17 +2,17 @@ import BasePage from "./base.page";
 
 class MenuPage extends BasePage{
   get desktops(){
-    return $('/html/body/div[1]/nav/div[2]/ul/li[1]/div/div/ul/li[2]/a');
+    return $('//a[text()="Desktops"]');
   }
   get mac(){
-    return $('//*[@id="content"]/div[2]/div/div/div[2]/div[1]/h4/a');
+    return $('//a[contains(text(),"Mac (")]');
   }
 
   async ingresarDesktops(){
-    await $('//*[@id="menu"]/div[2]/ul/li[1]').click();
+    await $('//a[text()="Desktops"]').click();
   }
   async ingresarAmac(){
-    await $('//*[@id="menu"]/div[2]/ul/li[1]/div/div/ul/li[2]/a').click();
+    await $('//a[contains(text(),"Mac (")]').click();
   }
   async obtenerMac(){
     return await this.mac.getValue();

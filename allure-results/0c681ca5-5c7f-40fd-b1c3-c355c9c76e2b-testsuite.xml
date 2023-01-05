@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672887686455' stop='1672887715912'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1672887686455' status='broken' stop='1672887715912'>
+            <name>Debería añadir el articulo al carro</name>
+            <title>Debería añadir el articulo al carro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672887686599' status='passed' stop='1672887686599'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672887703592' status='passed' stop='1672887703592'>
+                    <name>Busca iphone</name>
+                    <title>Busca iphone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672887706337' status='passed' stop='1672887706337'>
+                    <name>Ingresa al resultado de la busqueda</name>
+                    <title>Ingresa al resultado de la busqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672887714461' status='passed' stop='1672887714461'>
+                    <name>Ingresa el producto al carrito</name>
+                    <title>Ingresa el producto al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672887715068' status='passed' stop='1672887715068'>
+                    <name>Hace click en el boton del carrito y se despliega el menu con los detalles del mismo</name>
+                    <title>Hace click en el boton del carrito y se despliega el menu con los detalles del mismo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672887715125' status='passed' stop='1672887715125'>
+                    <name>Ingresa al carrito</name>
+                    <title>Ingresa al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='543165b5-06e5-4815-af32-311502cca622-attachment.png' type='image/png' size='172754'/>
+            </attachments>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=108.0.5359.125)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=108.0.5359.125)
+                    at getErrorFromResponseBody (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at Element.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (D:\WebdriverIO-Curso-Abstracta\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (D:\WebdriverIO-Curso-Abstracta\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
