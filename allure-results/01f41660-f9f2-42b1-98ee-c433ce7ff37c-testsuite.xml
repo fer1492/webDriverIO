@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672966682519' stop='1672966688556'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1672966682520' status='failed' stop='1672966688555'>
+            <name>Debería añadir el articulo al carro</name>
+            <title>Debería añadir el articulo al carro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672966682647' status='passed' stop='1672966682647'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672966685085' status='passed' stop='1672966685085'>
+                    <name>Busca iphone</name>
+                    <title>Busca iphone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672966685883' status='passed' stop='1672966685883'>
+                    <name>Ingresa al resultado de la busqueda</name>
+                    <title>Ingresa al resultado de la busqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672966687248' status='passed' stop='1672966687248'>
+                    <name>Ingresa el producto al carrito</name>
+                    <title>Ingresa el producto al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672966687887' status='passed' stop='1672966687887'>
+                    <name>Hace click en el boton del carrito y se despliega el menu con los detalles del mismo</name>
+                    <title>Hace click en el boton del carrito y se despliega el menu con los detalles del mismo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672966687952' status='passed' stop='1672966687952'>
+                    <name>Ingresa al carrito</name>
+                    <title>Ingresa al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672966688339' status='passed' stop='1672966688339'>
+                    <name>Verifica que el producto este en el carrito</name>
+                    <title>Verifica que el producto este en el carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672966688393' status='passed' stop='1672966688393'>
+                    <name>Regresa al home</name>
+                    <title>Regresa al home</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='ceed7ea6-d76b-457b-98e1-13d3042bf7cb-attachment.png' type='image/png' size='84975'/>
+            </attachments>
+            <failure>
+                <message>No se muestra el boton Your Store para volver al home: expected false to be true      
+                      actual expected
+                      
+                      falsetrue
+                      </message>
+                <stack-trace>AssertionError: No se muestra el boton Your Store para volver al home: expected false to be true
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/añadirAlCarro.test.js:28:116)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672967527301' stop='1672967533682'>
+    <name>Color</name>
+    <title>Color</title>
+    <test-cases>
+        <test-case start='1672967527302' status='broken' stop='1672967533681'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672967527337' status='passed' stop='1672967527337'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672967529767' status='passed' stop='1672967529767'>
+                    <name>Hace scroll hasta que se vea el footer</name>
+                    <title>Hace scroll hasta que se vea el footer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672967529813' status='passed' stop='1672967529813'>
+                    <name>Busca apple cinema</name>
+                    <title>Busca apple cinema</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672967533248' status='passed' stop='1672967533248'>
+                    <name>Selecciona el color dos de apple cinema</name>
+                    <title>Selecciona el color dos de apple cinema</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1672967533363' status='passed' stop='1672967533363'>
+                    <name>Regresa al home</name>
+                    <title>Regresa al home</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='da488ba6-71ce-4a62-a4de-74bea7007e68-attachment.png' type='image/png' size='205059'/>
+            </attachments>
+            <failure>
+                <message>_home.default.volverHome is not a function</message>
+                <stack-trace>TypeError: _home.default.volverHome is not a function
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/seleccionarColor.test.js:20:20)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

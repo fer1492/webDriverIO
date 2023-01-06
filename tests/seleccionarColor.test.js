@@ -6,6 +6,7 @@ describe('Color', () => {
 it('Debería buscar apple cinema, ingresar al artículo y seleccionar un color', async () => {
     addStep('Ingresa al sitio web');
     await homePage.abrir("/");
+    expect(await homePage.featureHome.isDisplayed(), 'No se esta mostrando el home de la página').to.be.true;
     addStep('Hace scroll hasta que se vea el footer');
     await homePage.footer.scrollIntoView();
     addStep('Busca apple cinema');

@@ -17,6 +17,10 @@ class HomePage extends BasePage {
     return $('select');
   }
 
+  get featureHome(){
+    return $('h3');
+  }
+
 
   /**
    * Busca un articulo dado
@@ -44,7 +48,7 @@ class HomePage extends BasePage {
   }
 
   /**
-   * Vuelve al home clcikeando en el boton Your Store
+   * @returns Obtiene el valor de volver al home
    */
   async volverHome(){
     return await this.volverAlHome.getValue();

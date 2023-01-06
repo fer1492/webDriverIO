@@ -8,6 +8,7 @@ describe('Carrito', () => {
   it('Debería añadir el articulo al carro', async () => {
     addStep('Ingresa al sitio web');
     await homePage.abrir("/");
+    expect(await homePage.featureHome.isDisplayed(), 'No se esta mostrando el home de la página').to.be.true;
     addStep('Busca iphone');
     await homePage.buscar(productName);
     addStep('Ingresa al resultado de la busqueda');

@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1672965371741' stop='1672965375175'>
+    <name>Menu</name>
+    <title>Menu</title>
+    <test-cases>
+        <test-case start='1672965371742' status='failed' stop='1672965375175'>
+            <name>Debería ingresar a Desktops/Mac y verificar que haya algún producto</name>
+            <title>Debería ingresar a Desktops/Mac y verificar que haya algún producto</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1672965371860' status='passed' stop='1672965371860'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='dcc18c44-a48c-4ca4-b1e9-2d07eebebe03-attachment.png' type='image/png' size='320487'/>
+            </attachments>
+            <failure>
+                <message>No se esta mostrando el home de la página: expected { Object (sessionId, elementId, ...) } to be true      
+                      actual expected
+                      
+                      Element { sessionId: '1534c5f13ef886151b8fbc888be6c275', elementId: 'e78d9b87-b09a-4b41-b0eb-a830214f83fb', 'element-6066-11e4-a52e-4f735466cecf': 'e78d9b87-b09a-4b41-b0eb-a830214f83fb', selector: 'h3', parent: Browser { sessionId: '1534c5f13ef886151b8fbc888be6c275', capabilities: { acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '108.0.5359.125', chrome: { chromedriverVersion: '108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})', userDataDir: 'C:\\Users\\fer_1\\AppData\\Local\\Temp\\scoped_dir19620_1231930711' }, 'goog:chromeOptions': { debuggerAddress: 'localhost:51530' }, networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'WINDOWS', proxy: {}, 'se:cdp': 'ws://192.168.56.1:4444/session/1534c5f13ef886151b8fbc888be6c275/se/cdp', 'se:cdpVersion': '108.0.5359.125', setWindowRect: true, strictFileInteractability: false, timeouts: { implicit: 0, pageLoad: 300000, script: 30000 }, unhandledPromptBehavior: 'dismiss and notify', 'webauthn:extension:credBlob': true, 'webauthn:extension:largeBlob': true, 'webauthn:virtualAuthenticators': true }, addCommand: [Function (anonymous)], overwriteCommand: [Function (anonymous)], addLocatorStrategy: [Function (anonymous)], config: { specs: [ './tests/**/*.js' ], suites: {}, exclude: [], outputDir: undefined, logLevel: 'info', logLevels: {}, excludeDriverLogs: [], bail: 0, waitforInterval: 500, waitforTimeout: 10000, framework: 'mocha', reporters: [ 'spec', [ 'allure', [Object] ] ], services: [ [ 'image-comparison', [Object] ], 'selenium-standalone' ], maxInstances: 10, maxInstancesPerCapability: 100, filesToWatch: [], connectionRetryTimeout: 120000, connectionRetryCount: 3, execArgv: [], runnerEnv: {}, runner: 'local', specFileRetries: 0, specFileRetriesDelay: 0, specFileRetriesDeferred: false, reporterSyncInterval: 100, reporterSyncTimeout: 5000, cucumberFeaturesWithLineNumbers: [], autoCompileOpts: { autoCompile: true, tsNodeOpts: { transpileOnly: true }, babelOpts: {} }, mochaOpts: { timeout: 60000, ui: 'bdd' }, jasmineOpts: { defaultTimeoutInterval: 10000 }, cucumberOpts: { timeout: 10000 }, onPrepare: [], onWorkerStart: [], onWorkerEnd: [], before: [ [Function: bound before] ], beforeSession: [], beforeSuite: [], beforeHook: [], beforeTest: [ [Function: bound beforeTest] ], beforeCommand: [], afterCommand: [], afterTest: [ [Function: bound afterTest] ], afterHook: [], afterSuite: [], afterSession: [], after: [], onComplete: [], onReload: [], beforeFeature: [], beforeScenario: [], beforeStep: [], afterStep: [], afterScenario: [], afterFeature: [], baseUrl: 'http://opencart.abstracta.us/', _: [ './wdio.conf.js' ], $0: 'node_modules\\@wdio\\cli\\bin\\wdio.js', ignoredWorkerServices: [] } }, emit: [Function: bound ], isReactElement: false, addCommand: [Function (anonymous)], overwriteCommand: [Function (anonymous)] }
+                      </message>
+                <stack-trace>AssertionError: No se esta mostrando el home de la página: expected { Object (sessionId, elementId, ...) } to be true
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/menuMac.test.js:8:103)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
