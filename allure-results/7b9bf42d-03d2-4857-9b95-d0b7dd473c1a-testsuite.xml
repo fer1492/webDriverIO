@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673138818230' stop='1673138822014'>
+    <name>Menu</name>
+    <title>Menu</title>
+    <test-cases>
+        <test-case start='1673138818230' status='failed' stop='1673138822013'>
+            <name>Debería ingresar a Desktops/Mac y verificar que haya algún producto</name>
+            <title>Debería ingresar a Desktops/Mac y verificar que haya algún producto</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673138818349' status='passed' stop='1673138818349'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673138821022' status='passed' stop='1673138821022'>
+                    <name>Abre el menu de Desktops</name>
+                    <title>Abre el menu de Desktops</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673138821152' status='passed' stop='1673138821152'>
+                    <name>Ingresa a mac</name>
+                    <title>Ingresa a mac</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673138821744' status='passed' stop='1673138821745'>
+                    <name>Verifica que haya algun producto</name>
+                    <title>Verifica que haya algun producto</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='28b229a5-0571-4641-9009-a0d5de46b5f7-attachment.png' type='image/png' size='127743'/>
+            </attachments>
+            <failure>
+                <message>expected [Function: obtenerProductoTexto] to equal 'Mac'      
+                      actual expected
+                      
+                      [Function: obtenerProductoTexto]'Mac'
+                      </message>
+                <stack-trace>AssertionError: expected [Function: obtenerProductoTexto] to equal 'Mac'
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/menuMac.test.js:18:59)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

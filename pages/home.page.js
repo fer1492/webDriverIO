@@ -53,6 +53,5 @@ class HomePage extends BasePage {
   async volverHome(){
     return await this.volverAlHome.getValue();
   }
-
 }
 export default new HomePage();

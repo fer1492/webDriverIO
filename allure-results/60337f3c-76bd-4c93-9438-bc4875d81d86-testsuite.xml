@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673127276101' stop='1673127279842'>
+    <name>Menu</name>
+    <title>Menu</title>
+    <test-cases>
+        <test-case start='1673127276102' status='broken' stop='1673127279837'>
+            <name>Debería ingresar a Desktops/Mac y verificar que haya algún producto</name>
+            <title>Debería ingresar a Desktops/Mac y verificar que haya algún producto</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673127276259' status='passed' stop='1673127276259'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673127278931' status='passed' stop='1673127278931'>
+                    <name>Abre el menu de Desktops</name>
+                    <title>Abre el menu de Desktops</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673127279000' status='passed' stop='1673127279000'>
+                    <name>Ingresa a mac</name>
+                    <title>Ingresa a mac</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673127279608' status='passed' stop='1673127279608'>
+                    <name>Verifica que haya algun producto</name>
+                    <title>Verifica que haya algun producto</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='a437c6b9-e37a-4dc2-9a41-3e374c77214e-attachment.png' type='image/png' size='127743'/>
+            </attachments>
+            <failure>
+                <message>_menu.default.verProducto is not a function</message>
+                <stack-trace>TypeError: _menu.default.verProducto is not a function
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/menuMac.test.js:16:20)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

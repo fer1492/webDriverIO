@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673137203690' stop='1673137207205'>
+    <name>Menu</name>
+    <title>Menu</title>
+    <test-cases>
+        <test-case start='1673137203690' status='failed' stop='1673137207204'>
+            <name>Debería ingresar a Desktops/Mac y verificar que haya algún producto</name>
+            <title>Debería ingresar a Desktops/Mac y verificar que haya algún producto</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673137203816' status='passed' stop='1673137203816'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673137206300' status='passed' stop='1673137206300'>
+                    <name>Abre el menu de Desktops</name>
+                    <title>Abre el menu de Desktops</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673137206382' status='passed' stop='1673137206382'>
+                    <name>Ingresa a mac</name>
+                    <title>Ingresa a mac</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673137206950' status='passed' stop='1673137206950'>
+                    <name>Verifica que haya algun producto</name>
+                    <title>Verifica que haya algun producto</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='d0206e4e-b117-4911-b00d-cb2f70500c37-attachment.png' type='image/png' size='127743'/>
+            </attachments>
+            <failure>
+                <message>expected {} to equal undefined</message>
+                <stack-trace>AssertionError: expected {} to equal undefined
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/menuMac.test.js:18:46)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

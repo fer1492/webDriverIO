@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673137635714' stop='1673137639708'>
+    <name>Menu</name>
+    <title>Menu</title>
+    <test-cases>
+        <test-case start='1673137635714' status='failed' stop='1673137639707'>
+            <name>Debería ingresar a Desktops/Mac y verificar que haya algún producto</name>
+            <title>Debería ingresar a Desktops/Mac y verificar que haya algún producto</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673137635844' status='passed' stop='1673137635844'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673137638648' status='passed' stop='1673137638648'>
+                    <name>Abre el menu de Desktops</name>
+                    <title>Abre el menu de Desktops</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673137638720' status='passed' stop='1673137638720'>
+                    <name>Ingresa a mac</name>
+                    <title>Ingresa a mac</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673137639264' status='passed' stop='1673137639264'>
+                    <name>Verifica que haya algun producto</name>
+                    <title>Verifica que haya algun producto</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='77fe7df7-7c0d-4764-93fd-4a36812db1ee-attachment.png' type='image/png' size='127743'/>
+            </attachments>
+            <failure>
+                <message>expected { Object (sessionId, elementId, ...) } to equal 'Mac'      
+                      actual expected
+                      
+                      Element { sessionId: '2dd04e87243cb328dc099bd800a659a4Mac', elementId: '11f24023-8d40-4404-aac8-f8deb35fc81d', 'element-6066-11e4-a52e-4f735466cecf': '11f24023-8d40-4404-aac8-f8deb35fc81d', selector: 'h2', parent: Browser { sessionId: '2dd04e87243cb328dc099bd800a659a4', capabilities: { acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '108.0.5359.125', chrome: { chromedriverVersion: '108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})', userDataDir: 'C:\\Users\\fer_1\\AppData\\Local\\Temp\\scoped_dir30264_1839513639' }, 'goog:chromeOptions': { debuggerAddress: 'localhost:62072' }, networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'WINDOWS', proxy: {}, 'se:cdp': 'ws://192.168.56.1:4444/session/2dd04e87243cb328dc099bd800a659a4/se/cdp', 'se:cdpVersion': '108.0.5359.125', setWindowRect: true, strictFileInteractability: false, timeouts: { implicit: 0, pageLoad: 300000, script: 30000 }, unhandledPromptBehavior: 'dismiss and notify', 'webauthn:extension:credBlob': true, 'webauthn:extension:largeBlob': true, 'webauthn:virtualAuthenticators': true }, addCommand: [Function (anonymous)], overwriteCommand: [Function (anonymous)], addLocatorStrategy: [Function (anonymous)], config: { specs: [ './tests/**/*.js' ], suites: {}, exclude: [], outputDir: undefined, logLevel: 'info', logLevels: {}, excludeDriverLogs: [], bail: 0, waitforInterval: 500, waitforTimeout: 10000, framework: 'mocha', reporters: [ 'spec', [ 'allure', [Object] ] ], services: [ [ 'image-comparison', [Object] ], 'selenium-standalone' ], maxInstances: 10, maxInstancesPerCapability: 100, filesToWatch: [], connectionRetryTimeout: 120000, connectionRetryCount: 3, execArgv: [], runnerEnv: {}, runner: 'local', specFileRetries: 0, specFileRetriesDelay: 0, specFileRetriesDeferred: false, reporterSyncInterval: 100, reporterSyncTimeout: 5000, cucumberFeaturesWithLineNumbers: [], autoCompileOpts: { autoCompile: true, tsNodeOpts: { transpileOnly: true }, babelOpts: {} }, mochaOpts: { timeout: 60000, ui: 'bdd' }, jasmineOpts: { defaultTimeoutInterval: 10000 }, cucumberOpts: { timeout: 10000 }, onPrepare: [], onWorkerStart: [], onWorkerEnd: [], before: [ [Function: bound before] ], beforeSession: [], beforeSuite: [], beforeHook: [], beforeTest: [ [Function: bound beforeTest] ], beforeCommand: [], afterCommand: [], afterTest: [ [Function: bound afterTest] ], afterHook: [], afterSuite: [], afterSession: [], after: [], onComplete: [], onReload: [], beforeFeature: [], beforeScenario: [], beforeStep: [], afterStep: [], afterScenario: [], afterFeature: [], baseUrl: 'http://opencart.abstracta.us/', _: [ './wdio.conf.js' ], $0: 'node_modules\\@wdio\\cli\\bin\\wdio.js', ignoredWorkerServices: [] } }, emit: [Function: bound ], isReactElement: false, addCommand: [Function (anonymous)], overwriteCommand: [Function (anonymous)] }
+                      </message>
+                <stack-trace>AssertionError: expected { Object (sessionId, elementId, ...) } to equal 'Mac'
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/menuMac.test.js:18:52)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

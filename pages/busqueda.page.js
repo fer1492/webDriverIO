@@ -1,9 +1,13 @@
 import BasePage from "../pages/base.page";
 
 class BusquedaPage extends BasePage {
-  
-  get buttonCart(){
-    return $(' #product #button-cart') ;
+
+  get imagenProducto(){
+    return $('[alt = "iMac"]');
+  }
+
+  get cartBtn(){
+    return $('.form-group #button-cart') ;
   }
   
   get success(){
@@ -38,15 +42,8 @@ class BusquedaPage extends BasePage {
     const selectorProductResult = await $(`[//h1[text()="${result}"]]`);
     return selectorProductResult;
   }
+  
 
-  /**Devuelve el Id del producto en base al que busquemos
-   * @param {String} productResultName Id del resultado del producto buscado
-   * @returns selector
-   */
-  async productId(id){
-    const selectorProductId = await $(`//td[text()="${id}"]`);
-    return selectorProductId;
-  }
 
   /**
    * Ingresa el producto al carrito
@@ -68,7 +65,5 @@ class BusquedaPage extends BasePage {
   async mostrarCarrito(){
     await $('strong .fa-shopping-cart').click()
   }
-
-
 }
 export default new BusquedaPage();

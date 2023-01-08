@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673132685305' stop='1673132691711'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1673132685306' status='passed' stop='1673132691711'>
+            <name>Debería añadir el articulo al carro</name>
+            <title>Debería añadir el articulo al carro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673132685423' status='passed' stop='1673132685423'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673132687853' status='passed' stop='1673132687853'>
+                    <name>Busca iphone</name>
+                    <title>Busca iphone</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673132688652' status='passed' stop='1673132688652'>
+                    <name>Ingresa al resultado de la busqueda</name>
+                    <title>Ingresa al resultado de la busqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673132690444' status='passed' stop='1673132690444'>
+                    <name>Ingresa el producto al carrito</name>
+                    <title>Ingresa el producto al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673132691117' status='passed' stop='1673132691117'>
+                    <name>Hace click en el boton del carrito y se despliega el menu con los detalles del mismo</name>
+                    <title>Hace click en el boton del carrito y se despliega el menu con los detalles del mismo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673132691200' status='passed' stop='1673132691200'>
+                    <name>Ingresa al carrito</name>
+                    <title>Ingresa al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673132691618' status='passed' stop='1673132691618'>
+                    <name>Verifica que el producto este en el carrito</name>
+                    <title>Verifica que el producto este en el carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673132691666' status='passed' stop='1673132691666'>
+                    <name>Regresa al home</name>
+                    <title>Regresa al home</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
