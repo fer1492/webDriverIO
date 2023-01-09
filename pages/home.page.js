@@ -48,8 +48,6 @@ class HomePage extends BasePage {
    return await this.productoCarrito.getValue();
   }
 
-  
-  
   async dropDown(articles){
     const selectorDropDown = await $(`//a[text()="${articles}"]`).click();
     return selectorDropDown;
