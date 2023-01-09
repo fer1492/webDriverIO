@@ -26,7 +26,7 @@ describe('Carrito', () => {
     addStep('Verifica que el producto este en el carrito');
     expect(await carritoPage.productoId.isDisplayed(), 'El producto seleccionado no se encuentra dentro del carrito').to.be.true;
     await (await carritoPage.productId(id)).scrollIntoView();
-    addStep('Regresa al home');
+    addStep('Verifica que se esté mostrando el boton para volver al home y posteriormente lo clickea para volver al mismo');
     expect(await homePage.volverAlHome.isDisplayed(), 'No se muestra el boton Your Store para volver al home').to.be.true;
     await homePage.volverHome();
   });

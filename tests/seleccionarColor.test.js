@@ -15,7 +15,7 @@ it('Debería buscar apple cinema, ingresar al artículo y seleccionar un color',
     addStep('Selecciona el color dos de apple cinema');
     await homePage.dropDownColor.selectByIndex(2);
     expect(await homePage.barraDeBusqueda.scrollIntoView());
-    addStep('Regresa al home');
+    addStep('Verifica que se esté mostrando el boton para volver al home y posteriormente lo clickea para volver al mismo');
     expect(await homePage.volverAlHome.isDisplayed(), 'No se esta mostrando el boton Your Store para volver al home').to.be.true;
     await homePage.volverHome();
 });

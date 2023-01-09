@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673280785795' stop='1673280798058'>
+    <name>Menu</name>
+    <title>Menu</title>
+    <test-cases>
+        <test-case start='1673280785796' status='passed' stop='1673280798057'>
+            <name>Debería clickear en en el menu en alguno de los botones desplegable, ingresar en un tipo de producto y verificar que los mismos se encuentren allí </name>
+            <title>Debería clickear en en el menu en alguno de los botones desplegable, ingresar en un tipo de producto y verificar que los mismos se encuentren allí </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.125'/>
+            </parameters>
+            <steps>
+                <step start='1673280785888' status='passed' stop='1673280785888'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673280788322' status='passed' stop='1673280788322'>
+                    <name>Abre el menu de Desktops</name>
+                    <title>Abre el menu de Desktops</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673280788400' status='passed' stop='1673280788400'>
+                    <name>Ingresa a mac</name>
+                    <title>Ingresa a mac</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673280797977' status='passed' stop='1673280797977'>
+                    <name>Verifica que haya algun producto</name>
+                    <title>Verifica que haya algun producto</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673280798013' status='passed' stop='1673280798013'>
+                    <name>Verifica que se esté mostrando para posteriormente volver al home</name>
+                    <title>Verifica que se esté mostrando para posteriormente volver al home</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

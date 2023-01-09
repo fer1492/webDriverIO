@@ -14,9 +14,5 @@ class CarritoPage extends BasePage{
     return selectorProductId;
   }
 
-
-  /*async obtenerId(){
-    return this.productoId.getValue();
-  }*/
 }
 export default new CarritoPage();

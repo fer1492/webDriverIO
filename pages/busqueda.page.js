@@ -29,6 +29,10 @@ class BusquedaPage extends BasePage {
    * @param {String} productName nombre del producto buscado
    * @returns selector
   */
+ get selectorProduct(){
+  return $('h4 a');
+ }
+
  async product(productName){
     const product = $(`//a[text()="${productName}"]`);
     return product;

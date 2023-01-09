@@ -2,10 +2,11 @@ import BasePage from "../pages/base.page";
 
 class HomePage extends BasePage {
 
+  
   get volverAlHome(){
     return $('h1 a');
   }
-
+  
   get barraDeBusqueda() {
     return $('[name="search"]');
   }
@@ -16,42 +17,50 @@ class HomePage extends BasePage {
   get dropDownColor(){
     return $('select');
   }
-
+  
   get featureHome(){
     return $('h3');
   }
-
-
+  
+  
   /**
    * Busca un articulo dado
    * @param {Object} articulo dado
-   */
-  async buscar(articulo) {
-    await super.vaciarCampoYEnviarTexto(await this.barraDeBusqueda, articulo);
-    await this.barraDeBusqueda.keys('Enter');
-  }
-
-/**
-  *
-  * @returns Obtiene el texto de la barra de busqueda
   */
-  async obtenerTextoBusqueda() {
-    return await this.barraDeBusqueda.getValue();
+ async buscar(articulo) {
+   await super.vaciarCampoYEnviarTexto(await this.barraDeBusqueda, articulo);
+   await this.barraDeBusqueda.keys('Enter');
   }
-
+  
+  /**
+   *
+   * @returns Obtiene el texto de la barra de busqueda
+  */
+ async obtenerTextoBusqueda() {
+   return await this.barraDeBusqueda.getValue();
+  }
+  
   /**
    *
    * @returns Obtiene el nombre del producto buscado en el carrito
-   */
-  async obtenerTextoBusquedaCarrito(){
-    return await this.productoCarrito.getValue();
+  */
+ async obtenerTextoBusquedaCarrito(){
+   return await this.productoCarrito.getValue();
   }
 
-  /**
-   * @returns Obtiene el valor de volver al home
-   */
-  async volverHome(){
-    return await this.volverAlHome.getValue();
+  
+  
+  async dropDown(articles){
+    const selectorDropDown = await $(`//a[text()="${articles}"]`).click();
+    return selectorDropDown;
   }
+
+  async ingresarDropDown(articleProduct){
+    const selectorProduct = await $(`//a[contains(text(),"${articleProduct}")]`).click();
+    return selectorProduct;
+  }
+    async volverHome(){
+      await $('h1 a').click();
+    }
 }
 export default new HomePage();
