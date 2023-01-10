@@ -14,8 +14,8 @@ describe('Carrito', () => {
     await homePage.buscar(productName);
     addStep('Ingresa al resultado de la busqueda');
     await busquedaPage.ingresarAlResultado();
-    expect (await busquedaPage.cartBtn.isDisplayed(), 'No se esta mostrando el producto').to.be.true;
     await (await busquedaPage.product(productName)).scrollIntoView();
+    expect (await busquedaPage.cartBtn.isDisplayed(), 'No se esta mostrando el producto').to.be.true;
     addStep('Ingresa el producto al carrito');
     await busquedaPage.ingresarElProducto();
     expect (await busquedaPage.success.waitForDisplayed( { timeout:5000 } ), 'El mensaje no muestra').to.be.true;
@@ -24,8 +24,8 @@ describe('Carrito', () => {
     addStep('Ingresa al carrito');
     await busquedaPage.mostrarCarrito();
     addStep('Verifica que el producto este en el carrito');
-    expect(await carritoPage.productoId.isDisplayed(), 'El producto seleccionado no se encuentra dentro del carrito').to.be.true;
     await (await carritoPage.productId(id)).scrollIntoView();
+    expect(await carritoPage.productoId.isDisplayed(), 'El producto seleccionado no se encuentra dentro del carrito').to.be.true;
     addStep('Verifica que se esté mostrando el boton para volver al home y posteriormente lo clickea para volver al mismo');
     expect(await homePage.volverAlHome.isDisplayed(), 'No se muestra el boton Your Store para volver al home').to.be.true;
     await homePage.volverHome();

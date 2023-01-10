@@ -48,15 +48,29 @@ class HomePage extends BasePage {
    return await this.productoCarrito.getValue();
   }
 
+  /**
+   * 
+   * @param {articles} Articulo dado para clickear en el menu
+   * @returns El selector clickeado
+   */
   async dropDown(articles){
     const selectorDropDown = await $(`//a[text()="${articles}"]`).click();
     return selectorDropDown;
   }
 
+  /**
+   * 
+   * @param {articleProduct} el producto para clickear dentro del menu
+   * @returns El producto dentro del menu clickeado
+   */
   async ingresarDropDown(articleProduct){
     const selectorProduct = await $(`//a[contains(text(),"${articleProduct}")]`).click();
     return selectorProduct;
   }
+
+  /**
+   * Clickear para volver al home despues para finalizar el test.
+   */
     async volverHome(){
       await $('h1 a').click();
     }
