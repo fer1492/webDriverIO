@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673548112408' stop='1673548128385'>
+    <name>Color</name>
+    <title>Color</title>
+    <test-cases>
+        <test-case start='1673548112409' status='passed' stop='1673548128384'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.74'/>
+            </parameters>
+            <steps>
+                <step start='1673548112434' status='passed' stop='1673548112434'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673548115067' status='passed' stop='1673548115067'>
+                    <name>Busca un artículo</name>
+                    <title>Busca un artículo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673548115943' status='passed' stop='1673548115943'>
+                    <name>Ingresa al producto buscado</name>
+                    <title>Ingresa al producto buscado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673548117499' status='passed' stop='1673548117499'>
+                    <name>Selecciona el color</name>
+                    <title>Selecciona el color</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673548126608' status='passed' stop='1673548126608'>
+                    <name>Verifica que se esté mostrando el boton para volver al home y posteriormente lo clickea para volver al mismo</name>
+                    <title>Verifica que se esté mostrando el boton para volver al home y posteriormente lo clickea para volver al mismo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -14,7 +14,6 @@ describe('Carrito', () => {
     await homePage.buscar(productName);
     addStep('Ingresa al resultado de la busqueda');
     await busquedaPage.ingresarAlResultado();
-    await (await busquedaPage.product(productName)).scrollIntoView();
     expect (await busquedaPage.cartBtn.isDisplayed(), 'No se esta mostrando el producto').to.be.true;
     addStep('Ingresa el producto al carrito');
     await busquedaPage.ingresarElProducto();

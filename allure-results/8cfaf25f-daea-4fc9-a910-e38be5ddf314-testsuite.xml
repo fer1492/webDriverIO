@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673547874654' stop='1673547878388'>
+    <name>Menu</name>
+    <title>Menu</title>
+    <test-cases>
+        <test-case start='1673547874654' status='passed' stop='1673547878387'>
+            <name>Debería clickear en en el menu en alguno de los botones desplegable, ingresar en un tipo de producto y verificar que los mismos se encuentren allí </name>
+            <title>Debería clickear en en el menu en alguno de los botones desplegable, ingresar en un tipo de producto y verificar que los mismos se encuentren allí </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.74'/>
+            </parameters>
+            <steps>
+                <step start='1673547874773' status='passed' stop='1673547874773'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673547877181' status='passed' stop='1673547877181'>
+                    <name>Abre el articulo dado en el menu</name>
+                    <title>Abre el articulo dado en el menu</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673547877325' status='passed' stop='1673547877325'>
+                    <name>Selecciona un tipo de producto</name>
+                    <title>Selecciona un tipo de producto</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673547877878' status='passed' stop='1673547877878'>
+                    <name>Verifica que haya algun producto</name>
+                    <title>Verifica que haya algun producto</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673547877918' status='passed' stop='1673547877918'>
+                    <name>Verifica que se esté mostrando el boton para volver al home y posteriormente lo clickea para volver al mismo</name>
+                    <title>Verifica que se esté mostrando el boton para volver al home y posteriormente lo clickea para volver al mismo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

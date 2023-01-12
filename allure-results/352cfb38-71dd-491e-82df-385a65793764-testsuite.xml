@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673549656357' stop='1673549661557'>
+    <name>Color</name>
+    <title>Color</title>
+    <test-cases>
+        <test-case start='1673549656358' status='failed' stop='1673549661556'>
+            <name>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</name>
+            <title>Debería buscar apple cinema, ingresar al artículo y seleccionar un color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.74'/>
+            </parameters>
+            <steps>
+                <step start='1673549656384' status='passed' stop='1673549656384'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673549658607' status='passed' stop='1673549658607'>
+                    <name>Busca un artículo</name>
+                    <title>Busca un artículo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673549659558' status='passed' stop='1673549659558'>
+                    <name>Ingresa al producto buscado</name>
+                    <title>Ingresa al producto buscado</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673549661181' status='passed' stop='1673549661181'>
+                    <name>Selecciona el color</name>
+                    <title>Selecciona el color</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='bc1591da-83fc-4359-91af-027d75a48b94-attachment.png' type='image/png' size='168147'/>
+            </attachments>
+            <failure>
+                <message>expected '                 --- Please Select ---\n                                Red (+$4.80)\n                                Blue (+$3.60)\n                                Green (+$1.20)\n                                Yellow (+$2.40)\n                              ' to equal 'Blue (+3.60)'      
+                      actual expected
+                      
+                      '                 --- Please Select ---\n                                Red (+$4.80)\n                                Blue (+$+3.60)\n                                Green (+$1.20)\n                                Yellow (+$2.40)\n                              '
+                      </message>
+                <stack-trace>AssertionError: expected '                 --- Please Select ---\n                                Red (+$4.80)\n                                Blue (+$3.60)\n                                Green (+$1.20)\n                                Yellow (+$2.40)\n                              ' to equal 'Blue (+3.60)'
+                    at Context.&lt;anonymous> (D:\WebdriverIO-Curso-Abstracta\tests\/seleccionarColor.test.js:22:64)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

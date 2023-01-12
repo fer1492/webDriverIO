@@ -2,42 +2,40 @@ import BasePage from "../pages/base.page";
 
 class BusquedaPage extends BasePage {
 
-  get imagenProducto(){
-    return $('[alt = "iMac"]');
-  }
-
   get cartBtn(){
-    return $('.form-group #button-cart') ;
+    return $('.form-group #button-cart');
   }
-  
   get success(){
     return $('//div[contains(text(),"Success")]');
   }
-  
-  get productoId(){
-    return $('//td[contains(text(),"product")]')
+
+  get colorIngresado(){
+    return $('//*[@id="input-option217"]/option[3]');
+  }
+
+  get selectorProduct(){
+  return $('h4 a');
+  }
+  get productalIngresar(){
+  return $('div.col-sm-4 > h1');
   }
 
   /**
    * Ingresa al producto que se ha buscado
   */
- async ingresarAlResultado() {
-   await $(".img-responsive").click();
+async ingresarAlResultado() {
+  await $(".img-responsive").click();
   }
-  
-  /**Devuelve el nombre del producto en base al que busquemos
-   * @param {String} productName nombre del producto buscado
-   * @returns selector
-  */
- get selectorProduct(){
-  return $('h4 a');
- }
 
- async product(productName){
+/**
+ *
+ * @param {String} productName
+ * @returns producto buscado
+ */
+async product(productName){
     const product = $(`//a[text()="${productName}"]`);
     return product;
   }
-  
   /**Devuelve el nombre del producto en base al que busquemos
    * @param {String} productResultName nombre del resultado del producto buscado
    * @returns selector
@@ -46,7 +44,6 @@ class BusquedaPage extends BasePage {
     const selectorProductResult = await $(`[//h1[text()="${result}"]]`);
     return selectorProductResult;
   }
-  
 
 
   /**

@@ -1,0 +1,70 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673551619376' stop='1673551625927'>
+    <name>Carrito</name>
+    <title>Carrito</title>
+    <test-cases>
+        <test-case start='1673551619376' status='passed' stop='1673551625927'>
+            <name>Debería añadir el articulo al carro</name>
+            <title>Debería añadir el articulo al carro</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-109.0.5414.74'/>
+            </parameters>
+            <steps>
+                <step start='1673551619492' status='passed' stop='1673551619492'>
+                    <name>Ingresa al sitio web</name>
+                    <title>Ingresa al sitio web</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673551621769' status='passed' stop='1673551621769'>
+                    <name>Busca el producto</name>
+                    <title>Busca el producto</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673551622618' status='passed' stop='1673551622618'>
+                    <name>Ingresa al resultado de la busqueda</name>
+                    <title>Ingresa al resultado de la busqueda</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673551624371' status='passed' stop='1673551624371'>
+                    <name>Ingresa el producto al carrito</name>
+                    <title>Ingresa el producto al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673551625000' status='passed' stop='1673551625000'>
+                    <name>Hace click en el boton del carrito y se despliega el menu con los detalles del mismo</name>
+                    <title>Hace click en el boton del carrito y se despliega el menu con los detalles del mismo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673551625066' status='passed' stop='1673551625066'>
+                    <name>Ingresa al carrito</name>
+                    <title>Ingresa al carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673551625431' status='passed' stop='1673551625431'>
+                    <name>Verifica que el producto este en el carrito</name>
+                    <title>Verifica que el producto este en el carrito</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1673551625490' status='passed' stop='1673551625490'>
+                    <name>Verifica que se esté mostrando el boton para volver al home y posteriormente lo clickea para volver al mismo</name>
+                    <title>Verifica que se esté mostrando el boton para volver al home y posteriormente lo clickea para volver al mismo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
