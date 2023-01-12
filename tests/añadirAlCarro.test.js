@@ -10,7 +10,7 @@ describe('Carrito', () => {
     addStep('Ingresa al sitio web');
     await homePage.abrir("/");
     expect(await homePage.featureHome.isDisplayed(), 'No se esta mostrando el home de la página').to.be.true;
-    addStep('Busca iphone');
+    addStep('Busca el producto');
     await homePage.buscar(productName);
     addStep('Ingresa al resultado de la busqueda');
     await busquedaPage.ingresarAlResultado();
@@ -29,5 +29,6 @@ describe('Carrito', () => {
     addStep('Verifica que se esté mostrando el boton para volver al home y posteriormente lo clickea para volver al mismo');
     expect(await homePage.volverAlHome.isDisplayed(), 'No se muestra el boton Your Store para volver al home').to.be.true;
     await homePage.volverHome();
+    expect(await homePage.featureHome.isDisplayed(), 'No se esta mostrando el home de la página').to.be.true;
   });
 });

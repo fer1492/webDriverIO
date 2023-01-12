@@ -10,9 +10,6 @@ class HomePage extends BasePage {
   get barraDeBusqueda() {
     return $('[name="search"]');
   }
-  get footer(){
-    return $('footer');
-  }
 
   get dropDownColor(){
     return $('select');
@@ -21,8 +18,7 @@ class HomePage extends BasePage {
   get featureHome(){
     return $('h3');
   }
-  
-  
+
   /**
    * Busca un articulo dado
    * @param {Object} articulo dado

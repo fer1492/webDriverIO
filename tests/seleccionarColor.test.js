@@ -7,8 +7,6 @@ it('Debería buscar apple cinema, ingresar al artículo y seleccionar un color',
     addStep('Ingresa al sitio web');
     await homePage.abrir("/");
     expect(await homePage.featureHome.isDisplayed(), 'No se esta mostrando el home de la página').to.be.true;
-    addStep('Hace scroll hasta que se vea el footer');
-    await homePage.footer.scrollIntoView();
     addStep('Busca apple cinema');
     await homePage.buscar('apple cinema');
     await busquedaPage.ingresarAlResultado();
@@ -18,5 +16,6 @@ it('Debería buscar apple cinema, ingresar al artículo y seleccionar un color',
     addStep('Verifica que se esté mostrando el boton para volver al home y posteriormente lo clickea para volver al mismo');
     expect(await homePage.volverAlHome.isDisplayed(), 'No se esta mostrando el boton Your Store para volver al home').to.be.true;
     await homePage.volverHome();
+    expect(await homePage.featureHome.isDisplayed(), 'No se esta mostrando el home de la página').to.be.true;
 });
 });
